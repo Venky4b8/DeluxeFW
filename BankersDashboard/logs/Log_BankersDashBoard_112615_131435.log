@@ -1,0 +1,66 @@
+[INFO ][2015-11-26 13:14:35,775] [com.java.CreateClient] [main] [  138] - Execution started
+[DEBUG][2015-11-26 13:14:35,775] [com.java.CreateClient] [main] [  148] - Execute Failed Cases: false
+[INFO ][2015-11-26 13:14:35,855] [com.java.CreateClient] [main] [  201] - Test Cases Being executed:[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+[INFO ][2015-11-26 13:14:35,855] [com.java.CreateClient] [main] [  205] - Browsers:IE10,IE11
+[INFO ][2015-11-26 13:14:35,855] [com.java.CreateClient] [main] [  206] - Clients:Mechanics & Farmers Bank,Simmons First National Bank
+[INFO ][2015-11-26 13:14:35,855] [com.java.CreateClient] [main] [  210] - Execution type:Sequential:1
+[INFO ][2015-11-26 13:14:35,855] [com.java.CreateClient] [main] [  232] - Client to be executed: Mechanics & Farmers Bank
+[INFO ][2015-11-26 13:14:35,855] [com.java.CreateClient] [main] [  249] - Application URL: https://clients-xuat.bankersdashboard.com
+[INFO ][2015-11-26 13:14:35,865] [com.java.CreateClient] [main] [  290] - Browser Name:IE10
+Login user:valuelabs.ie10.30118
+Login Password:Password1*
+[INFO ][2015-11-26 13:14:35,865] [com.java.CreateClient] [main] [  290] - Browser Name:IE11
+Login user:valuelabs.ie11.30118
+Login Password:Password1*
+[INFO ][2015-11-26 13:14:37,865] [com.java.CreateClient] [main] [  232] - Client to be executed: Simmons First National Bank
+[INFO ][2015-11-26 13:14:37,865] [com.java.CreateClient] [main] [  249] - Application URL: https://clients-xuat.bankersdashboard.com
+[INFO ][2015-11-26 13:14:37,865] [com.java.CreateClient] [main] [  290] - Browser Name:IE10
+Login user:valuelabs.ie10.03890
+Login Password:Password1*
+[INFO ][2015-11-26 13:14:37,865] [com.java.CreateClient] [main] [  290] - Browser Name:IE11
+Login user:valuelabs.ie11.03890
+Login Password:Password1*
+[DEBUG][2015-11-26 13:14:39,866] [com.java.CreateClient] [invokeClientsinParallel] [  459] - Thread name before setting name: Thread[Thread-3,5,main]
+[DEBUG][2015-11-26 13:14:39,866] [com.java.CreateClient] [invokeClientsinParallel] [  463] - Thread name: Thread[Thread_Mechanics & Farmers Bank_null,5,main]
+[DEBUG][2015-11-26 13:14:39,866] [com.java.CreateClient] [invokeClientsinParallel] [  465] - Thread started: Thread[Thread_Mechanics & Farmers Bank_null,5,main]
+[DEBUG][2015-11-26 13:14:49,871] [com.java.CreateClient] [invokeClientsinParallel] [  459] - Thread name before setting name: Thread[Thread-6,5,main]
+[DEBUG][2015-11-26 13:14:49,871] [com.java.CreateClient] [invokeClientsinParallel] [  463] - Thread name: Thread[Thread_Mechanics & Farmers Bank_null,5,main]
+[DEBUG][2015-11-26 13:14:49,871] [com.java.CreateClient] [invokeClientsinParallel] [  465] - Thread started: Thread[Thread_Mechanics & Farmers Bank_null,5,main]
+[DEBUG][2015-11-26 14:02:49,949] [com.java.CreateClient] [invokeClientInSequential] [  436] - Thread name before setting name: Thread[Thread-7,5,main]
+[DEBUG][2015-11-26 14:02:49,949] [com.java.CreateClient] [invokeClientInSequential] [  441] - Thread name: Thread[Thread_Simmons First National Bank_IE10,5,main]
+[DEBUG][2015-11-26 14:02:49,949] [com.java.CreateClient] [invokeClientInSequential] [  443] - Thread started: Thread[Thread_Simmons First National Bank_IE10,5,main]
+[DEBUG][2015-11-26 14:24:00,308] [com.java.CreateClient] [updateExecutionStatus] [  593] - updating the execution completion status for: IE11 : MECHANICS & FARMERS BANK
+[DEBUG][2015-11-26 14:24:00,308] [com.java.CreateClient] [invokeClientInSequential] [  436] - Thread name before setting name: Thread[Thread-8,5,main]
+[DEBUG][2015-11-26 14:24:00,308] [com.java.CreateClient] [invokeClientInSequential] [  441] - Thread name: Thread[Thread_Simmons First National Bank_IE11,5,main]
+[DEBUG][2015-11-26 14:24:00,308] [com.java.CreateClient] [invokeClientInSequential] [  443] - Thread started: Thread[Thread_Simmons First National Bank_IE11,5,main]
+[WARN ][2015-11-26 14:24:01,314] [com.java.ImportnExport.ExportTestResultsExcel] [gatherMissedExecutionDetails] [  716] - Excution Detials for Client: MECHANICS & FARMERS BANK Browser:IE10 missing
+[WARN ][2015-11-26 14:24:01,314] [com.java.ImportnExport.ExportTestResultsExcel] [gatherMissedExecutionDetails] [  717] - Calling generateMissedReport method to generate reports
+[INFO ][2015-11-26 14:24:01,314] [com.java.ImportnExport.ExportTestResultsExcel] [generateMissedReport] [  745] - HtmlFileName:Consolidated Test Results_BankersDashBoard_112615_142401_IE10_Mechanics & Farmers Bank.html
+[ERROR][2015-11-26 14:24:01,314] [com.java.ImportnExport.ExportTestResultsExcel] [gatherMissedExecutionDetails] [  720] - Unable to generate reports for Client: MECHANICS & FARMERS BANK Browser:IE10 missing
+[INFO ][2015-11-26 14:24:05,357] [com.java.EmailTestReport] [postMail_clientLevel] [  199] - ------------------------------
+[INFO ][2015-11-26 14:24:05,357] [com.java.EmailTestReport] [postMail_clientLevel] [  200] - In client level mail sending:
+[INFO ][2015-11-26 14:24:05,357] [com.java.EmailTestReport] [postMail_clientLevel] [  201] - List of browser before removing duplicates:[IE10, IE11]
+[INFO ][2015-11-26 14:24:05,357] [com.java.EmailTestReport] [postMail_clientLevel] [  210] - List of browser after removing duplicates:[IE10, IE11]
+[INFO ][2015-11-26 14:24:05,357] [com.java.EmailTestReport] [postMail_clientLevel] [  213] - Client Name:Mechanics & Farmers Bank
+[INFO ][2015-11-26 14:24:05,357] [com.java.EmailTestReport] [postMail_clientLevel] [  222] - 
+[INFO ][2015-11-26 14:24:05,357] [com.java.EmailTestReport] [postMail_clientLevel] [  237] - smtpHostName :mail01.valuelabs.com
+[INFO ][2015-11-26 14:24:05,357] [com.java.EmailTestReport] [postMail_clientLevel] [  238] - recipient :venkateswararao.gubbala@valuelabs.com;naresh.nayini@valuelabs.com
+[INFO ][2015-11-26 14:24:05,357] [com.java.EmailTestReport] [postMail_clientLevel] [  239] - reportType :Basic
+[INFO ][2015-11-26 14:24:05,357] [com.java.EmailTestReport] [postMail_clientLevel] [  240] - from :venkateswararao.gubbala@valuelabs.com
+[INFO ][2015-11-26 14:24:05,357] [com.java.EmailTestReport] [postMail_clientLevel] [  241] - subject :Deluxe Corp Bankers Dashboard Automation Test Report - Mechanics & Farmers Bank
+[INFO ][2015-11-26 14:24:05,357] [com.java.EmailTestReport] [postMail_clientLevel] [  242] - message :Hi All, <br><br> Below is the summary of Deluxe Corp Bankers Dashboard Test Scripts Execution: <br> &&Counters&& <br><br>Please find the attached Test Report of Deluxe Corp Bankers Dashboard Automation Test Scripts Execution.<br><br> Regards, <br>Automation Team
+[INFO ][2015-11-26 14:24:05,357] [com.java.EmailTestReport] [postMail_clientLevel] [  243] - port :25
+[INFO ][2015-11-26 14:24:05,357] [com.java.EmailTestReport] [postMail_clientLevel] [  290] - Browser Names in client:[IE11]
+[INFO ][2015-11-26 14:24:05,357] [com.java.EmailTestReport] [postMail_clientLevel] [  293] - Browser Name:IE10
+[WARN ][2015-11-26 14:24:05,357] [com.java.EmailTestReport] [postMail_clientLevel] [  329] - RESULTS ARE MISSING FOR :  Client:Mechanics & Farmers Bank
+[WARN ][2015-11-26 14:24:05,357] [com.java.EmailTestReport] [postMail_clientLevel] [  330] - Making all deatils as NOT EXECUTED
+[INFO ][2015-11-26 14:24:05,357] [com.java.EmailTestReport] [postMail_clientLevel] [  293] - Browser Name:IE11
+[INFO ][2015-11-26 14:24:05,357] [com.java.EmailTestReport] [postMail_clientLevel] [  315] - Browser: <td > IE10 </td><td > IE11 </td>
+[INFO ][2015-11-26 14:24:05,357] [com.java.EmailTestReport] [postMail_clientLevel] [  316] - URL: <td> NOT EXECUTED </td><td> https://clients-xuat.bankersdashboard.com </td>
+[INFO ][2015-11-26 14:24:05,357] [com.java.EmailTestReport] [postMail_clientLevel] [  317] - Total: <td > NOT EXECUTED </td><td > 33 </td>
+[INFO ][2015-11-26 14:24:05,357] [com.java.EmailTestReport] [postMail_clientLevel] [  318] - Passed: <td style="background-color:lightgreen;"> NOT EXECUTED </td><td style="background-color:lightgreen;"> 32 </td>
+[INFO ][2015-11-26 14:24:05,357] [com.java.EmailTestReport] [postMail_clientLevel] [  319] - Failed: <td  style="background-color:#FA0000; color:#FFFFFF;"> NOT EXECUTED </td><td  style="background-color:#FA0000; color:#FFFFFF;"> 1 </td>
+[INFO ][2015-11-26 14:24:05,357] [com.java.EmailTestReport] [postMail_clientLevel] [  320] - Skipped: <td > NOT EXECUTED </td><td > 0 </td>
+[INFO ][2015-11-26 14:24:05,357] [com.java.EmailTestReport] [postMail_clientLevel] [  321] - StartTime: <td > NOT EXECUTED </td><td > Thu Nov 26 13:14:49 IST 2015 </td>
+[INFO ][2015-11-26 14:24:05,357] [com.java.EmailTestReport] [postMail_clientLevel] [  322] - EndTime: <td > NOT EXECUTED </td><td > Thu Nov 26 14:23:54 IST 2015 </td>
+[DEBUG][2015-11-26 15:45:47,230] [com.java.CreateClient] [updateExecutionStatus] [  593] - updating the execution completion status for: IE10 : SIMMONS FIRST NATIONAL BANK

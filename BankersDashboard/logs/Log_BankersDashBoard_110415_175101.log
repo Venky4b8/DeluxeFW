@@ -1,0 +1,29 @@
+[INFO ][2015-11-04 17:51:01,355] [com.java.CreateClient] [main] [  138] - Execution started
+[DEBUG][2015-11-04 17:51:01,357] [com.java.CreateClient] [main] [  148] - Execute Failed Cases: false
+[INFO ][2015-11-04 17:51:01,444] [com.java.CreateClient] [main] [  201] - Test Cases Being executed:[1, 8]
+[INFO ][2015-11-04 17:51:01,444] [com.java.CreateClient] [main] [  205] - Browsers:IE11
+[INFO ][2015-11-04 17:51:01,444] [com.java.CreateClient] [main] [  206] - Clients:Simmons First National Bank
+[INFO ][2015-11-04 17:51:01,444] [com.java.CreateClient] [main] [  210] - Execution type:Sequential:1
+[INFO ][2015-11-04 17:51:01,445] [com.java.CreateClient] [main] [  232] - Client to be executed: Simmons First National Bank
+[INFO ][2015-11-04 17:51:01,445] [com.java.CreateClient] [main] [  249] - Application URL: https://clients-xuat.bankersdashboard.com
+[INFO ][2015-11-04 17:51:01,449] [com.java.CreateClient] [main] [  290] - Browser Name:IE11
+Login user:valuelabs.ie11.03890
+Login Password:Password1*
+[DEBUG][2015-11-04 17:51:03,450] [com.java.CreateClient] [invokeClientsinParallel] [  459] - Thread name before setting name: Thread[Thread-3,5,main]
+[DEBUG][2015-11-04 17:51:03,450] [com.java.CreateClient] [invokeClientsinParallel] [  463] - Thread name: Thread[Thread_Simmons First National Bank_null,5,main]
+[DEBUG][2015-11-04 17:51:03,451] [com.java.CreateClient] [invokeClientsinParallel] [  465] - Thread started: Thread[Thread_Simmons First National Bank_null,5,main]
+[DEBUG][2015-11-04 17:54:05,893] [com.java.CreateClient] [updateExecutionStatus] [  593] - updating the execution completion status for: IE11 : SIMMONS FIRST NATIONAL BANK
+[INFO ][2015-11-04 17:54:05,893] [com.java.CreateClient] [generateBrowserLevelReportOnCompletion] [  618] - Execution Completed for Browser:IE11 for All Clients i.e:[Simmons First National Bank]
+[INFO ][2015-11-04 17:54:05,893] [com.java.TemplateGenerator] [browserLevelReport_Consolidated] [  802] - Generating browser level report for:IE11
+[DEBUG][2015-11-04 17:54:05,893] [com.java.TemplateGenerator] [writeToHTML] [  895] - Generating consolidated HTML file for all clients
+[INFO ][2015-11-04 17:54:05,893] [com.java.TemplateGenerator] [writeToHTML] [  897] - Browser names:[IE11]
+[INFO ][2015-11-04 17:54:05,893] [com.java.TemplateGenerator] [writeToHTML] [  898] - Client names:[Simmons First National Bank]
+[INFO ][2015-11-04 17:54:05,893] [com.java.TemplateGenerator] [writeToHTML] [ 1011] - ---------------------------
+[INFO ][2015-11-04 17:54:05,893] [com.java.TemplateGenerator] [writeToHTML] [ 1012] - clientName: Simmons First National Bank
+[INFO ][2015-11-04 17:54:05,893] [com.java.TemplateGenerator] [writeToHTML] [ 1028] - Browser execution details missing:[]
+[INFO ][2015-11-04 17:54:05,893] [com.java.TemplateGenerator] [writeToHTML] [ 1042] - Browser execution details exist for client: Simmons First National Bank are: [IE11]
+[DEBUG][2015-11-04 17:54:05,893] [com.java.EmailTestReport] [postMail_Consolidated] [  460] - Sending Consildated report mail for clients
+[INFO ][2015-11-04 17:54:05,893] [com.java.EmailTestReport] [postMail_Consolidated] [  495] - ---------------------------
+[INFO ][2015-11-04 17:54:05,893] [com.java.EmailTestReport] [postMail_Consolidated] [  496] - clientName: Simmons First National Bank
+[INFO ][2015-11-04 17:54:05,893] [com.java.EmailTestReport] [postMail_Consolidated] [  515] - Browser execution details missing:[]
+[INFO ][2015-11-04 17:54:05,893] [com.java.EmailTestReport] [postMail_Consolidated] [  535] - Browser execution details exist for client: Simmons First National Bank are: [IE11]

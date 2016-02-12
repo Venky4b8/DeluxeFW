@@ -1,0 +1,170 @@
+[INFO ][2015-10-28 19:33:50,940][com.java.SeleniumDriver] [  213] - Execute Failed Casesfalse
+[INFO ][2015-10-28 19:33:50,940][com.java.SeleniumDriver] [  214] - Browser: IE11
+[INFO ][2015-10-28 19:33:50,940][com.java.SeleniumDriver] [  215] - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+[INFO ][2015-10-28 19:33:50,940][com.java.SeleniumDriver] [  216] - Total TestCases:15
+[INFO ][2015-10-28 19:33:50,940][com.java.SeleniumDriver] [  217] -  Reading Properties from Property File 
+[DEBUG][2015-10-28 19:33:50,940][com.java.SeleniumDriver] [  238] - url : https://clients-xuat.bankersdashboard.com
+[INFO ][2015-10-28 19:33:50,950][com.java.ImportnExport.ExportTestResultsExcel] [  116] - Time Stamp Wed Oct 28 07:33:50 IST 2015
+[INFO ][2015-10-28 19:33:50,950][com.java.ImportnExport.ExportTestResultsExcel] [  175] - OUT FILE : D:\BankersDashboard/TestReports/Test Results_BankersDashBoard_102815_193350_IE11_Bank of North Carolina.xls
+[INFO ][2015-10-28 19:33:50,981][com.java.ImportnExport.ExportTestResultsExcel] [  180] - Test Result file is created
+[DEBUG][2015-10-28 19:33:51,071][com.java.SeleniumDriver] [  425] - Hub ip address is-------172.17.68.34
+[INFO ][2015-10-28 19:33:51,081][com.java.SeleniumDriver] [  451] - Grid URL:http://172.17.68.34:4444/wd/hub
+[INFO ][2015-10-28 19:33:51,081][com.java.SeleniumDriver] [  452] - Capability:Capabilities [{platform=ANY, ensureCleanSession=true, ignoreProtectedModeSettings=true, acceptSslCerts=true, ignoreZoomSetting=true, browserName=internet explorer, browserstack.ie.noFlash=true, version=Node1}]
+[ERROR][2015-10-28 19:33:52,361][com.java.SeleniumDriver] [  496] - Unable invoke browser in grid:Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'FVTIII438F1D', ip: '172.17.68.34', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_55'
+Driver info: driver.version: SeleniumDriver
+[INFO ][2015-10-28 19:33:52,361][com.java.SeleniumDriver] [  498] - Executing on local machine
+[INFO ][2015-10-28 19:34:00,173][com.java.SeleniumDriver] [  248] - IE11is opened
+[ERROR][2015-10-28 19:34:00,183][com.java.SeleniumDriver] [  270] - Browser crashed. Opening new browser with same capabilities
+[ERROR][2015-10-28 19:34:00,183][com.java.SeleniumDriver] [  271] - Error:
+org.openqa.selenium.WebDriverException: Failed to navigate to https://clients-xuat.bankersdashboard.com. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'FVTIII438F1D', ip: '172.17.68.34', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_55'
+Session ID: 73461127-4c2f-4d32-afdc-6556f27f80e8
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=11, ie.usePerProcessProxy=false, ignoreProtectedModeSettings=true, cssSelectorsEnabled=true, requireWindowFocus=false, initialBrowserUrl=http://localhost:26860/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:311)
+	at com.java.SeleniumDriver.setup(SeleniumDriver.java:253)
+	at com.java.ExecuteThread.run(CreateClient.java:689)
+	at java.lang.Thread.run(Thread.java:745)
+[DEBUG][2015-10-28 19:34:01,534][com.java.SeleniumDriver] [  425] - Hub ip address is-------172.17.68.34
+[INFO ][2015-10-28 19:34:01,534][com.java.SeleniumDriver] [  451] - Grid URL:http://172.17.68.34:4444/wd/hub
+[INFO ][2015-10-28 19:34:01,534][com.java.SeleniumDriver] [  452] - Capability:Capabilities [{platform=ANY, ensureCleanSession=true, ignoreProtectedModeSettings=true, acceptSslCerts=true, ignoreZoomSetting=true, browserName=internet explorer, browserstack.ie.noFlash=true, version=Node1}]
+[ERROR][2015-10-28 19:34:02,535][com.java.SeleniumDriver] [  496] - Unable invoke browser in grid:Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'FVTIII438F1D', ip: '172.17.68.34', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_55'
+Driver info: driver.version: SeleniumDriver
+[INFO ][2015-10-28 19:34:02,535][com.java.SeleniumDriver] [  498] - Executing on local machine
+[INFO ][2015-10-28 19:34:09,977][com.java.SeleniumDriver] [  752] - Test cases to be executed are: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+[INFO ][2015-10-28 19:34:09,977][com.java.ImportnExport.ImportTestDataDetailsExcel] [   49] - test data details path===== D:\BankersDashboard\TestInputs\TestData.xls
+[INFO ][2015-10-28 19:34:10,028][com.java.SeleniumDriver] [  790] - ------------------------------------------
+[INFO ][2015-10-28 19:34:10,028][com.java.SeleniumDriver] [  791] - Test case being Executed: 2
+[INFO ][2015-10-28 19:34:10,038][com.java.SeleniumDriver] [  802] - Test step:1
+[INFO ][2015-10-28 19:34:10,038][com.java.SeleniumDriver] [  814] - Datavalue is----------Concept#1:1-14
+[INFO ][2015-10-28 19:34:10,038][com.java.SeleniumDriver] [  838] - DataField : test
+[INFO ][2015-10-28 19:34:10,038][com.java.SeleniumDriver] [  840] - DataValue : Concept#1:1-14
+[INFO ][2015-10-28 19:34:10,038][com.java.SeleniumDriver] [  846] - <In Set values of the page>
+[INFO ][2015-10-28 19:34:10,038][com.java.SeleniumDriver] [  849] - {Data Fields & Data Values Exist}
+[INFO ][2015-10-28 19:34:10,038][com.java.SeleniumDriver] [  851] - --------------------------setting values-----------------------------
+[INFO ][2015-10-28 19:34:10,038][com.java.SeleniumDriver] [  854] - Action Type : ExecuteTestCase
+[INFO ][2015-10-28 19:34:10,058][com.java.TestType] [  353] - The Concept sheet name is ---------- Concept
+[INFO ][2015-10-28 19:34:10,058][com.java.TestType] [  355] - The Concept ID  is ---------- 1
+[DEBUG][2015-10-28 19:34:10,058][com.java.TestType] [  357] - Steps being executted in the Concept are: 1:14
+[INFO ][2015-10-28 19:34:10,058][com.java.TestType] [  361] - Test data details path ---------- D:\BankersDashboard\TestInputs\TestData.xls
+[INFO ][2015-10-28 19:34:10,098][com.java.TestType] [  385] -  str(1) = 1
+[INFO ][2015-10-28 19:34:10,098][com.java.TestType] [  388] - Test case Id is---1
+[INFO ][2015-10-28 19:34:10,098][com.java.TestType] [  390] - 1
+[INFO ][2015-10-28 19:34:10,098][com.java.TestType] [  385] -  str(2) = 1
+[INFO ][2015-10-28 19:34:10,098][com.java.TestType] [  435] - row values are--------{1=com.java.Objects.TestDataDetails@1357ede}
+[INFO ][2015-10-28 19:34:10,098][com.java.TestType] [  385] -  str(1) = 1
+[INFO ][2015-10-28 19:34:10,098][com.java.TestType] [  388] - Test case Id is---1
+[INFO ][2015-10-28 19:34:10,098][com.java.TestType] [  390] - 1
+[INFO ][2015-10-28 19:34:10,098][com.java.TestType] [  385] -  str(2) = 2
+[INFO ][2015-10-28 19:34:10,098][com.java.TestType] [  435] - row values are--------{1=com.java.Objects.TestDataDetails@1357ede, 2=com.java.Objects.TestDataDetails@df3fbc}
+[INFO ][2015-10-28 19:34:10,098][com.java.TestType] [  385] -  str(1) = 1
+[INFO ][2015-10-28 19:34:10,098][com.java.TestType] [  388] - Test case Id is---1
+[INFO ][2015-10-28 19:34:10,098][com.java.TestType] [  390] - 1
+[INFO ][2015-10-28 19:34:10,098][com.java.TestType] [  385] -  str(2) = 3
+[INFO ][2015-10-28 19:34:10,098][com.java.TestType] [  435] - row values are--------{1=com.java.Objects.TestDataDetails@1357ede, 2=com.java.Objects.TestDataDetails@df3fbc, 3=com.java.Objects.TestDataDetails@dc16be}
+[INFO ][2015-10-28 19:34:10,098][com.java.TestType] [  385] -  str(1) = 1
+[INFO ][2015-10-28 19:34:10,098][com.java.TestType] [  388] - Test case Id is---1
+[INFO ][2015-10-28 19:34:10,098][com.java.TestType] [  390] - 1
+[INFO ][2015-10-28 19:34:10,098][com.java.TestType] [  385] -  str(2) = 4
+[INFO ][2015-10-28 19:34:10,108][com.java.TestType] [  435] - row values are--------{1=com.java.Objects.TestDataDetails@1357ede, 2=com.java.Objects.TestDataDetails@df3fbc, 3=com.java.Objects.TestDataDetails@dc16be, 4=com.java.Objects.TestDataDetails@1caae8}
+[INFO ][2015-10-28 19:34:10,108][com.java.TestType] [  385] -  str(1) = 1
+[INFO ][2015-10-28 19:34:10,108][com.java.TestType] [  388] - Test case Id is---1
+[INFO ][2015-10-28 19:34:10,108][com.java.TestType] [  390] - 1
+[INFO ][2015-10-28 19:34:10,108][com.java.TestType] [  385] -  str(2) = 5
+[INFO ][2015-10-28 19:34:10,108][com.java.TestType] [  435] - row values are--------{1=com.java.Objects.TestDataDetails@1357ede, 2=com.java.Objects.TestDataDetails@df3fbc, 3=com.java.Objects.TestDataDetails@dc16be, 4=com.java.Objects.TestDataDetails@1caae8, 5=com.java.Objects.TestDataDetails@e95d5b}
+[INFO ][2015-10-28 19:34:10,108][com.java.TestType] [  385] -  str(1) = 1
+[INFO ][2015-10-28 19:34:10,108][com.java.TestType] [  388] - Test case Id is---1
+[INFO ][2015-10-28 19:34:10,108][com.java.TestType] [  390] - 1
+[INFO ][2015-10-28 19:34:10,108][com.java.TestType] [  385] -  str(2) = 6
+[INFO ][2015-10-28 19:34:10,108][com.java.TestType] [  435] - row values are--------{1=com.java.Objects.TestDataDetails@1357ede, 2=com.java.Objects.TestDataDetails@df3fbc, 3=com.java.Objects.TestDataDetails@dc16be, 4=com.java.Objects.TestDataDetails@1caae8, 5=com.java.Objects.TestDataDetails@e95d5b, 6=com.java.Objects.TestDataDetails@1e5f3af}
+[INFO ][2015-10-28 19:34:10,108][com.java.TestType] [  385] -  str(1) = 1
+[INFO ][2015-10-28 19:34:10,108][com.java.TestType] [  388] - Test case Id is---1
+[INFO ][2015-10-28 19:34:10,108][com.java.TestType] [  390] - 1
+[INFO ][2015-10-28 19:34:10,108][com.java.TestType] [  385] -  str(2) = 7
+[INFO ][2015-10-28 19:34:10,108][com.java.TestType] [  435] - row values are--------{1=com.java.Objects.TestDataDetails@1357ede, 2=com.java.Objects.TestDataDetails@df3fbc, 3=com.java.Objects.TestDataDetails@dc16be, 4=com.java.Objects.TestDataDetails@1caae8, 5=com.java.Objects.TestDataDetails@e95d5b, 6=com.java.Objects.TestDataDetails@1e5f3af, 7=com.java.Objects.TestDataDetails@124d9f}
+[INFO ][2015-10-28 19:34:10,108][com.java.TestType] [  385] -  str(1) = 1
+[INFO ][2015-10-28 19:34:10,108][com.java.TestType] [  388] - Test case Id is---1
+[INFO ][2015-10-28 19:34:10,108][com.java.TestType] [  390] - 1
+[INFO ][2015-10-28 19:34:10,108][com.java.TestType] [  385] -  str(2) = 8
+[INFO ][2015-10-28 19:34:10,108][com.java.TestType] [  435] - row values are--------{1=com.java.Objects.TestDataDetails@1357ede, 2=com.java.Objects.TestDataDetails@df3fbc, 3=com.java.Objects.TestDataDetails@dc16be, 4=com.java.Objects.TestDataDetails@1caae8, 5=com.java.Objects.TestDataDetails@e95d5b, 6=com.java.Objects.TestDataDetails@1e5f3af, 7=com.java.Objects.TestDataDetails@124d9f, 8=com.java.Objects.TestDataDetails@1d8de02}
+[INFO ][2015-10-28 19:34:10,108][com.java.TestType] [  385] -  str(1) = 1
+[INFO ][2015-10-28 19:34:10,108][com.java.TestType] [  388] - Test case Id is---1
+[INFO ][2015-10-28 19:34:10,108][com.java.TestType] [  390] - 1
+[INFO ][2015-10-28 19:34:10,108][com.java.TestType] [  385] -  str(2) = 9
+[INFO ][2015-10-28 19:34:10,118][com.java.TestType] [  435] - row values are--------{1=com.java.Objects.TestDataDetails@1357ede, 2=com.java.Objects.TestDataDetails@df3fbc, 3=com.java.Objects.TestDataDetails@dc16be, 4=com.java.Objects.TestDataDetails@1caae8, 5=com.java.Objects.TestDataDetails@e95d5b, 6=com.java.Objects.TestDataDetails@1e5f3af, 7=com.java.Objects.TestDataDetails@124d9f, 8=com.java.Objects.TestDataDetails@1d8de02, 9=com.java.Objects.TestDataDetails@11e600}
+[INFO ][2015-10-28 19:34:10,118][com.java.TestType] [  385] -  str(1) = 1
+[INFO ][2015-10-28 19:34:10,118][com.java.TestType] [  388] - Test case Id is---1
+[INFO ][2015-10-28 19:34:10,118][com.java.TestType] [  390] - 1
+[INFO ][2015-10-28 19:34:10,118][com.java.TestType] [  385] -  str(2) = 10
+[INFO ][2015-10-28 19:34:10,118][com.java.TestType] [  435] - row values are--------{1=com.java.Objects.TestDataDetails@1357ede, 2=com.java.Objects.TestDataDetails@df3fbc, 3=com.java.Objects.TestDataDetails@dc16be, 4=com.java.Objects.TestDataDetails@1caae8, 5=com.java.Objects.TestDataDetails@e95d5b, 6=com.java.Objects.TestDataDetails@1e5f3af, 7=com.java.Objects.TestDataDetails@124d9f, 8=com.java.Objects.TestDataDetails@1d8de02, 9=com.java.Objects.TestDataDetails@11e600, 10=com.java.Objects.TestDataDetails@220861}
+[INFO ][2015-10-28 19:34:10,118][com.java.TestType] [  385] -  str(1) = 1
+[INFO ][2015-10-28 19:34:10,118][com.java.TestType] [  388] - Test case Id is---1
+[INFO ][2015-10-28 19:34:10,118][com.java.TestType] [  390] - 1
+[INFO ][2015-10-28 19:34:10,118][com.java.TestType] [  385] -  str(2) = 11
+[INFO ][2015-10-28 19:34:10,118][com.java.TestType] [  435] - row values are--------{1=com.java.Objects.TestDataDetails@1357ede, 2=com.java.Objects.TestDataDetails@df3fbc, 3=com.java.Objects.TestDataDetails@dc16be, 4=com.java.Objects.TestDataDetails@1caae8, 5=com.java.Objects.TestDataDetails@e95d5b, 6=com.java.Objects.TestDataDetails@1e5f3af, 7=com.java.Objects.TestDataDetails@124d9f, 8=com.java.Objects.TestDataDetails@1d8de02, 9=com.java.Objects.TestDataDetails@11e600, 10=com.java.Objects.TestDataDetails@220861, 11=com.java.Objects.TestDataDetails@1bbe8df}
+[INFO ][2015-10-28 19:34:10,118][com.java.TestType] [  385] -  str(1) = 1
+[INFO ][2015-10-28 19:34:10,118][com.java.TestType] [  388] - Test case Id is---1
+[INFO ][2015-10-28 19:34:10,118][com.java.TestType] [  390] - 1
+[INFO ][2015-10-28 19:34:10,118][com.java.TestType] [  385] -  str(2) = 12
+[INFO ][2015-10-28 19:34:10,118][com.java.TestType] [  435] - row values are--------{1=com.java.Objects.TestDataDetails@1357ede, 2=com.java.Objects.TestDataDetails@df3fbc, 3=com.java.Objects.TestDataDetails@dc16be, 4=com.java.Objects.TestDataDetails@1caae8, 5=com.java.Objects.TestDataDetails@e95d5b, 6=com.java.Objects.TestDataDetails@1e5f3af, 7=com.java.Objects.TestDataDetails@124d9f, 8=com.java.Objects.TestDataDetails@1d8de02, 9=com.java.Objects.TestDataDetails@11e600, 10=com.java.Objects.TestDataDetails@220861, 11=com.java.Objects.TestDataDetails@1bbe8df, 12=com.java.Objects.TestDataDetails@dbf42e}
+[INFO ][2015-10-28 19:34:10,118][com.java.TestType] [  385] -  str(1) = 1
+[INFO ][2015-10-28 19:34:10,118][com.java.TestType] [  388] - Test case Id is---1
+[INFO ][2015-10-28 19:34:10,118][com.java.TestType] [  390] - 1
+[INFO ][2015-10-28 19:34:10,118][com.java.TestType] [  385] -  str(2) = 13
+[INFO ][2015-10-28 19:34:10,118][com.java.TestType] [  435] - row values are--------{1=com.java.Objects.TestDataDetails@1357ede, 2=com.java.Objects.TestDataDetails@df3fbc, 3=com.java.Objects.TestDataDetails@dc16be, 4=com.java.Objects.TestDataDetails@1caae8, 5=com.java.Objects.TestDataDetails@e95d5b, 6=com.java.Objects.TestDataDetails@1e5f3af, 7=com.java.Objects.TestDataDetails@124d9f, 8=com.java.Objects.TestDataDetails@1d8de02, 9=com.java.Objects.TestDataDetails@11e600, 10=com.java.Objects.TestDataDetails@220861, 11=com.java.Objects.TestDataDetails@1bbe8df, 12=com.java.Objects.TestDataDetails@dbf42e, 13=com.java.Objects.TestDataDetails@ac7456}
+[INFO ][2015-10-28 19:34:10,118][com.java.TestType] [  385] -  str(1) = 1
+[INFO ][2015-10-28 19:34:10,118][com.java.TestType] [  388] - Test case Id is---1
+[INFO ][2015-10-28 19:34:10,118][com.java.TestType] [  390] - 1
+[INFO ][2015-10-28 19:34:10,118][com.java.TestType] [  385] -  str(2) = 14
+[INFO ][2015-10-28 19:34:10,118][com.java.TestType] [  435] - row values are--------{1=com.java.Objects.TestDataDetails@1357ede, 2=com.java.Objects.TestDataDetails@df3fbc, 3=com.java.Objects.TestDataDetails@dc16be, 4=com.java.Objects.TestDataDetails@1caae8, 5=com.java.Objects.TestDataDetails@e95d5b, 6=com.java.Objects.TestDataDetails@1e5f3af, 7=com.java.Objects.TestDataDetails@124d9f, 8=com.java.Objects.TestDataDetails@1d8de02, 9=com.java.Objects.TestDataDetails@11e600, 10=com.java.Objects.TestDataDetails@220861, 11=com.java.Objects.TestDataDetails@1bbe8df, 12=com.java.Objects.TestDataDetails@dbf42e, 13=com.java.Objects.TestDataDetails@ac7456, 14=com.java.Objects.TestDataDetails@1d7cf67}
+[INFO ][2015-10-28 19:34:10,118][com.java.TestType] [ 6330] - Looping 1TCID = 1
+[DEBUG][2015-10-28 19:34:10,118][com.java.TestType] [ 6341] - Concept ID:1 :: Step being Executed: 1::1
+[INFO ][2015-10-28 19:34:10,118][com.java.TestType] [ 6374] - dataFields : TXTusername
+[DEBUG][2015-10-28 19:34:10,118][com.java.TestType] [ 6379] - <In Set values of the page>
+[DEBUG][2015-10-28 19:34:10,118][com.java.TestType] [ 6383] - {Data Fields & Data Values Exist}
+[INFO ][2015-10-28 19:34:10,118][com.java.TestType] [ 6387] - --------------------------setting values-----------------------------
+[INFO ][2015-10-28 19:34:10,118][com.java.TestType] [ 6390] - Action Type : CLEARANDENTER
+[INFO ][2015-10-28 19:34:10,118][com.java.TestType] [ 2981] - value = valuelabs.ie11.33527
+[ERROR][2015-10-28 19:34:10,138][com.java.TestType] [ 3636] - Exception in clearAndEnter: null
+[DEBUG][2015-10-28 19:34:10,138][com.java.TestType] [ 3639] - For ENTER action type the data field should be TXT
+[INFO ][2015-10-28 19:34:10,138][com.java.TestType] [ 6401] -  RESULT false
+[INFO ][2015-10-28 19:34:10,138][com.java.TestType] [ 6446] - ?   F A I L   ?
+[DEBUG][2015-10-28 19:34:10,138][com.java.TestType] [ 6449] - Browser Type : IE11
+[INFO ][2015-10-28 19:34:10,138][com.java.TestType] [ 6462] - ProjPath:D:\BankersDashboard
+[INFO ][2015-10-28 19:34:10,138][com.java.SeleniumDriver] [  863] -  RESULT false
+[INFO ][2015-10-28 19:34:10,138][com.java.SeleniumDriver] [  910] - ?   F A I L   ?
+[INFO ][2015-10-28 19:34:10,138][com.java.SeleniumDriver] [  918] - Browser Type : IE11
+[INFO ][2015-10-28 19:34:10,138][com.java.SeleniumDriver] [  919] - Adding Failed case2
+[WARN ][2015-10-28 19:34:10,159][com.java.SeleniumDriver] [  978] - Source 'D:\BankersDashboard\TestReports\102815' exists but is a directory
+[INFO ][2015-10-28 19:34:10,159][com.java.SeleniumDriver] [ 1032] - failedCases = 2
+[ERROR][2015-10-28 19:34:10,159][com.java.SeleniumDriver] [ 1518] - Platform Errors : Our apologies...::We have encountered an issue with your request.::Our apologies?:We encountered an issue with your request.
+[INFO ][2015-10-28 19:34:10,159][com.java.SeleniumDriver] [ 1522] - Length =3
+[ERROR][2015-10-28 19:34:10,159][com.java.SeleniumDriver] [ 1525] - Error 0 = Our apologies...
+[DEBUG][2015-10-28 19:34:10,169][com.java.SeleniumDriver] [ 1538] - Unable to get the Platform Error list from Hash Map.
+[ERROR][2015-10-28 19:34:10,169][com.java.SeleniumDriver] [  290] - Exception: Failed to navigate to https://clients-xuat.bankersdashboard.com. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'FVTIII438F1D', ip: '172.17.68.34', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_55'
+Session ID: 73461127-4c2f-4d32-afdc-6556f27f80e8
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=11, ie.usePerProcessProxy=false, ignoreProtectedModeSettings=true, cssSelectorsEnabled=true, requireWindowFocus=false, initialBrowserUrl=http://localhost:26860/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+[ERROR][2015-10-28 19:34:10,169][com.java.SeleniumDriver] [  292] - Failed to navigate to https://clients-xuat.bankersdashboard.com. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'FVTIII438F1D', ip: '172.17.68.34', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_55'
+Session ID: 73461127-4c2f-4d32-afdc-6556f27f80e8
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=11, ie.usePerProcessProxy=false, ignoreProtectedModeSettings=true, cssSelectorsEnabled=true, requireWindowFocus=false, initialBrowserUrl=http://localhost:26860/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]

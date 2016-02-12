@@ -1,0 +1,66 @@
+[INFO ][2015-12-01 19:20:14,768] [com.java.CreateClient] [main] [  138] - Execution started
+[DEBUG][2015-12-01 19:20:14,769] [com.java.CreateClient] [main] [  148] - Execute Failed Cases: false
+[INFO ][2015-12-01 19:20:14,854] [com.java.CreateClient] [main] [  201] - Test Cases Being executed:[1, 9]
+[INFO ][2015-12-01 19:20:14,854] [com.java.CreateClient] [main] [  205] - Browsers:IE10
+[INFO ][2015-12-01 19:20:14,854] [com.java.CreateClient] [main] [  206] - Clients:Any Bank USA
+[INFO ][2015-12-01 19:20:14,855] [com.java.CreateClient] [main] [  210] - Execution type:Sequential:1
+[INFO ][2015-12-01 19:20:14,855] [com.java.CreateClient] [main] [  232] - Client to be executed: Any Bank USA
+[INFO ][2015-12-01 19:20:14,855] [com.java.CreateClient] [main] [  249] - Application URL: https://clients-xuat.bankersdashboard.com
+[INFO ][2015-12-01 19:20:14,858] [com.java.CreateClient] [main] [  290] - Browser Name:IE10
+Login user:naresh.nayini.00000
+Login Password:Password1*
+[DEBUG][2015-12-01 19:20:16,860] [com.java.CreateClient] [invokeClientsinParallel] [  459] - Thread name before setting name: Thread[Thread-3,5,main]
+[DEBUG][2015-12-01 19:20:16,860] [com.java.CreateClient] [invokeClientsinParallel] [  463] - Thread name: Thread[Thread_Any Bank USA_null,5,main]
+[DEBUG][2015-12-01 19:20:16,860] [com.java.CreateClient] [invokeClientsinParallel] [  465] - Thread started: Thread[Thread_Any Bank USA_null,5,main]
+[DEBUG][2015-12-01 19:25:03,658] [com.java.CreateClient] [updateExecutionStatus] [  593] - updating the execution completion status for: IE10 : ANY BANK USA
+[INFO ][2015-12-01 19:25:03,658] [com.java.CreateClient] [generateBrowserLevelReportOnCompletion] [  618] - Execution Completed for Browser:IE10 for All Clients i.e:[Any Bank USA]
+[INFO ][2015-12-01 19:25:03,658] [com.java.TemplateGenerator] [browserLevelReport_Consolidated] [  802] - Generating browser level report for:IE10
+[DEBUG][2015-12-01 19:25:03,658] [com.java.TemplateGenerator] [writeToHTML] [  895] - Generating consolidated HTML file for all clients
+[INFO ][2015-12-01 19:25:03,658] [com.java.TemplateGenerator] [writeToHTML] [  897] - Browser names:[IE10]
+[INFO ][2015-12-01 19:25:03,658] [com.java.TemplateGenerator] [writeToHTML] [  898] - Client names:[Any Bank USA]
+[INFO ][2015-12-01 19:25:03,658] [com.java.TemplateGenerator] [writeToHTML] [ 1011] - ---------------------------
+[INFO ][2015-12-01 19:25:03,658] [com.java.TemplateGenerator] [writeToHTML] [ 1012] - clientName: Any Bank USA
+[INFO ][2015-12-01 19:25:03,658] [com.java.TemplateGenerator] [writeToHTML] [ 1028] - Browser execution details missing:[]
+[INFO ][2015-12-01 19:25:03,658] [com.java.TemplateGenerator] [writeToHTML] [ 1042] - Browser execution details exist for client: Any Bank USA are: [IE10]
+[DEBUG][2015-12-01 19:25:03,658] [com.java.EmailTestReport] [postMail_Consolidated] [  460] - Sending Consildated report mail for clients
+[INFO ][2015-12-01 19:25:03,658] [com.java.EmailTestReport] [postMail_Consolidated] [  495] - ---------------------------
+[INFO ][2015-12-01 19:25:03,658] [com.java.EmailTestReport] [postMail_Consolidated] [  496] - clientName: Any Bank USA
+[INFO ][2015-12-01 19:25:03,658] [com.java.EmailTestReport] [postMail_Consolidated] [  515] - Browser execution details missing:[]
+[INFO ][2015-12-01 19:25:03,658] [com.java.EmailTestReport] [postMail_Consolidated] [  535] - Browser execution details exist for client: Any Bank USA are: [IE10]
+[INFO ][2015-12-01 19:25:08,570] [com.java.EmailTestReport] [postMail_clientLevel] [  199] - ------------------------------
+[INFO ][2015-12-01 19:25:08,570] [com.java.EmailTestReport] [postMail_clientLevel] [  200] - In client level mail sending:
+[INFO ][2015-12-01 19:25:08,570] [com.java.EmailTestReport] [postMail_clientLevel] [  201] - List of browser before removing duplicates:[IE10]
+[INFO ][2015-12-01 19:25:08,570] [com.java.EmailTestReport] [postMail_clientLevel] [  210] - List of browser after removing duplicates:[IE10]
+[INFO ][2015-12-01 19:25:08,570] [com.java.EmailTestReport] [postMail_clientLevel] [  213] - Client Name:Any Bank USA
+[INFO ][2015-12-01 19:25:08,570] [com.java.EmailTestReport] [postMail_clientLevel] [  222] - 
+[INFO ][2015-12-01 19:25:08,570] [com.java.EmailTestReport] [postMail_clientLevel] [  237] - smtpHostName :mail01.valuelabs.com
+[INFO ][2015-12-01 19:25:08,570] [com.java.EmailTestReport] [postMail_clientLevel] [  238] - recipient :venkateswararao.gubbala@valuelabs.com;
+[INFO ][2015-12-01 19:25:08,570] [com.java.EmailTestReport] [postMail_clientLevel] [  239] - reportType :Basic
+[INFO ][2015-12-01 19:25:08,570] [com.java.EmailTestReport] [postMail_clientLevel] [  240] - from :venkateswararao.gubbala@valuelabs.com
+[INFO ][2015-12-01 19:25:08,570] [com.java.EmailTestReport] [postMail_clientLevel] [  241] - subject :Deluxe Corp Bankers Dashboard Automation Test Report - Any Bank USA
+[INFO ][2015-12-01 19:25:08,570] [com.java.EmailTestReport] [postMail_clientLevel] [  242] - message :Hi All, <br><br> Below is the summary of Deluxe Corp Bankers Dashboard Test Scripts Execution: <br> &&Counters&& <br><br>Please find the attached Test Report of Deluxe Corp Bankers Dashboard Automation Test Scripts Execution.<br><br> Regards, <br>Automation Team
+[INFO ][2015-12-01 19:25:08,570] [com.java.EmailTestReport] [postMail_clientLevel] [  243] - port :25
+[INFO ][2015-12-01 19:25:08,570] [com.java.EmailTestReport] [postMail_clientLevel] [  290] - Browser Names in client:[IE10]
+[INFO ][2015-12-01 19:25:08,570] [com.java.EmailTestReport] [postMail_clientLevel] [  293] - Browser Name:IE10
+[INFO ][2015-12-01 19:25:08,570] [com.java.EmailTestReport] [postMail_clientLevel] [  315] - Browser: <td > IE10 </td>
+[INFO ][2015-12-01 19:25:08,570] [com.java.EmailTestReport] [postMail_clientLevel] [  316] - URL: <td> https://clients-xuat.bankersdashboard.com </td>
+[INFO ][2015-12-01 19:25:08,570] [com.java.EmailTestReport] [postMail_clientLevel] [  317] - Total: <td > 2 </td>
+[INFO ][2015-12-01 19:25:08,570] [com.java.EmailTestReport] [postMail_clientLevel] [  318] - Passed: <td style="background-color:lightgreen;"> 1 </td>
+[INFO ][2015-12-01 19:25:08,570] [com.java.EmailTestReport] [postMail_clientLevel] [  319] - Failed: <td  style="background-color:#FA0000; color:#FFFFFF;"> 1 </td>
+[INFO ][2015-12-01 19:25:08,570] [com.java.EmailTestReport] [postMail_clientLevel] [  320] - Skipped: <td > 0 </td>
+[INFO ][2015-12-01 19:25:08,570] [com.java.EmailTestReport] [postMail_clientLevel] [  321] - StartTime: <td > Tue Dec 01 19:20:16 IST 2015 </td>
+[INFO ][2015-12-01 19:25:08,570] [com.java.EmailTestReport] [postMail_clientLevel] [  322] - EndTime: <td > Tue Dec 01 19:24:58 IST 2015 </td>
+[INFO ][2015-12-01 19:25:08,641] [com.java.CreateClient] [stopThreads] [  580] - Thread execution has finished---------------
+[DEBUG][2015-12-01 19:25:08,651] [com.java.TemplateGenerator] [writeToHTML] [  895] - Generating consolidated HTML file for all clients
+[INFO ][2015-12-01 19:25:08,651] [com.java.TemplateGenerator] [writeToHTML] [  897] - Browser names:[IE10]
+[INFO ][2015-12-01 19:25:08,651] [com.java.TemplateGenerator] [writeToHTML] [  898] - Client names:[Any Bank USA]
+[INFO ][2015-12-01 19:25:08,651] [com.java.TemplateGenerator] [writeToHTML] [ 1011] - ---------------------------
+[INFO ][2015-12-01 19:25:08,651] [com.java.TemplateGenerator] [writeToHTML] [ 1012] - clientName: Any Bank USA
+[INFO ][2015-12-01 19:25:08,651] [com.java.TemplateGenerator] [writeToHTML] [ 1028] - Browser execution details missing:[]
+[INFO ][2015-12-01 19:25:08,651] [com.java.TemplateGenerator] [writeToHTML] [ 1042] - Browser execution details exist for client: Any Bank USA are: [IE10]
+[DEBUG][2015-12-01 19:25:18,652] [com.java.EmailTestReport] [postMail_Consolidated] [  460] - Sending Consildated report mail for clients
+[INFO ][2015-12-01 19:25:18,652] [com.java.EmailTestReport] [postMail_Consolidated] [  495] - ---------------------------
+[INFO ][2015-12-01 19:25:18,652] [com.java.EmailTestReport] [postMail_Consolidated] [  496] - clientName: Any Bank USA
+[INFO ][2015-12-01 19:25:18,652] [com.java.EmailTestReport] [postMail_Consolidated] [  515] - Browser execution details missing:[]
+[INFO ][2015-12-01 19:25:18,652] [com.java.EmailTestReport] [postMail_Consolidated] [  535] - Browser execution details exist for client: Any Bank USA are: [IE10]
+[INFO ][2015-12-01 19:25:20,043] [com.java.CreateClient] [main] [  412] - Execution completed

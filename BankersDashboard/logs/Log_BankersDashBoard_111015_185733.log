@@ -1,0 +1,59 @@
+[INFO ][2015-11-10 18:57:33,645] [com.java.CreateClient] [main] [  138] - Execution started
+[DEBUG][2015-11-10 18:57:33,645] [com.java.CreateClient] [main] [  148] - Execute Failed Cases: false
+[INFO ][2015-11-10 18:57:33,725] [com.java.CreateClient] [main] [  201] - Test Cases Being executed:[1, 2, 3, 4, 5, 6, 7, 8]
+[INFO ][2015-11-10 18:57:33,725] [com.java.CreateClient] [main] [  205] - Browsers:IE9,IE10,IE11
+[INFO ][2015-11-10 18:57:33,725] [com.java.CreateClient] [main] [  206] - Clients:Any Bank USA, Simmons First National Bank
+[INFO ][2015-11-10 18:57:33,725] [com.java.CreateClient] [main] [  210] - Execution type:Sequential:1
+[INFO ][2015-11-10 18:57:33,725] [com.java.CreateClient] [main] [  232] - Client to be executed: Any Bank USA
+[INFO ][2015-11-10 18:57:33,725] [com.java.CreateClient] [main] [  249] - Application URL: https://clients-xuat.bankersdashboard.com
+[INFO ][2015-11-10 18:57:33,735] [com.java.CreateClient] [main] [  290] - Browser Name:IE9
+Login user:naresh.nayini.00000
+Login Password:Password1*
+[INFO ][2015-11-10 18:57:33,735] [com.java.CreateClient] [main] [  290] - Browser Name:IE10
+Login user:naresh.nayini.00000
+Login Password:Password1*
+[INFO ][2015-11-10 18:57:33,735] [com.java.CreateClient] [main] [  290] - Browser Name:IE11
+Login user:naresh.nayini.00000
+Login Password:Password1*
+[INFO ][2015-11-10 18:57:35,735] [com.java.CreateClient] [main] [  232] - Client to be executed:  Simmons First National Bank
+[INFO ][2015-11-10 18:57:35,735] [com.java.CreateClient] [main] [  249] - Application URL: https://clients-xuat.bankersdashboard.com
+[DEBUG][2015-11-10 18:57:37,736] [com.java.CreateClient] [invokeClientsinParallel] [  459] - Thread name before setting name: Thread[Thread-3,5,main]
+[DEBUG][2015-11-10 18:57:37,736] [com.java.CreateClient] [invokeClientsinParallel] [  463] - Thread name: Thread[Thread_Any Bank USA_null,5,main]
+[DEBUG][2015-11-10 18:57:37,736] [com.java.CreateClient] [invokeClientsinParallel] [  465] - Thread started: Thread[Thread_Any Bank USA_null,5,main]
+[DEBUG][2015-11-10 18:57:47,739] [com.java.CreateClient] [invokeClientsinParallel] [  459] - Thread name before setting name: Thread[Thread-5,5,main]
+[DEBUG][2015-11-10 18:57:47,739] [com.java.CreateClient] [invokeClientsinParallel] [  463] - Thread name: Thread[Thread_Any Bank USA_null,5,main]
+[DEBUG][2015-11-10 18:57:47,739] [com.java.CreateClient] [invokeClientsinParallel] [  465] - Thread started: Thread[Thread_Any Bank USA_null,5,main]
+[DEBUG][2015-11-10 18:57:57,747] [com.java.CreateClient] [invokeClientsinParallel] [  459] - Thread name before setting name: Thread[Thread-8,5,main]
+[DEBUG][2015-11-10 18:57:57,747] [com.java.CreateClient] [invokeClientsinParallel] [  463] - Thread name: Thread[Thread_Any Bank USA_null,5,main]
+[DEBUG][2015-11-10 18:57:57,747] [com.java.CreateClient] [invokeClientsinParallel] [  465] - Thread started: Thread[Thread_Any Bank USA_null,5,main]
+[DEBUG][2015-11-10 19:07:22,495] [com.java.CreateClient] [invokeClientInSequential] [  436] - Thread name before setting name: Thread[Thread-9,5,main]
+[DEBUG][2015-11-10 19:07:22,495] [com.java.CreateClient] [invokeClientInSequential] [  441] - Thread name: Thread[Thread_ Simmons First National Bank_IE10,5,main]
+[DEBUG][2015-11-10 19:07:22,495] [com.java.CreateClient] [invokeClientInSequential] [  443] - Thread started: Thread[Thread_ Simmons First National Bank_IE10,5,main]
+[DEBUG][2015-11-10 19:07:36,759] [com.java.CreateClient] [updateExecutionStatus] [  593] - updating the execution completion status for: IE10 :  SIMMONS FIRST NATIONAL BANK
+[DEBUG][2015-11-10 19:07:44,609] [com.java.CreateClient] [updateExecutionStatus] [  593] - updating the execution completion status for: IE9 : ANY BANK USA
+[DEBUG][2015-11-10 19:07:44,609] [com.java.CreateClient] [invokeClientInSequential] [  436] - Thread name before setting name: Thread[Thread-11,5,main]
+[DEBUG][2015-11-10 19:07:44,609] [com.java.CreateClient] [invokeClientInSequential] [  441] - Thread name: Thread[Thread_ Simmons First National Bank_IE9,5,main]
+[DEBUG][2015-11-10 19:07:44,609] [com.java.CreateClient] [invokeClientInSequential] [  443] - Thread started: Thread[Thread_ Simmons First National Bank_IE9,5,main]
+[DEBUG][2015-11-10 19:07:51,128] [com.java.CreateClient] [updateExecutionStatus] [  593] - updating the execution completion status for: IE9 :  SIMMONS FIRST NATIONAL BANK
+[INFO ][2015-11-10 19:07:51,128] [com.java.CreateClient] [generateBrowserLevelReportOnCompletion] [  618] - Execution Completed for Browser:IE9 for All Clients i.e:[Any Bank USA,  Simmons First National Bank]
+[INFO ][2015-11-10 19:07:51,128] [com.java.TemplateGenerator] [browserLevelReport_Consolidated] [  802] - Generating browser level report for:IE9
+[DEBUG][2015-11-10 19:07:51,128] [com.java.TemplateGenerator] [writeToHTML] [  895] - Generating consolidated HTML file for all clients
+[INFO ][2015-11-10 19:07:51,128] [com.java.TemplateGenerator] [writeToHTML] [  897] - Browser names:[IE9]
+[INFO ][2015-11-10 19:07:51,128] [com.java.TemplateGenerator] [writeToHTML] [  898] - Client names:[ Simmons First National Bank, Any Bank USA]
+[INFO ][2015-11-10 19:07:51,128] [com.java.TemplateGenerator] [writeToHTML] [ 1011] - ---------------------------
+[INFO ][2015-11-10 19:07:51,128] [com.java.TemplateGenerator] [writeToHTML] [ 1012] - clientName:  Simmons First National Bank
+[INFO ][2015-11-10 19:07:51,128] [com.java.TemplateGenerator] [writeToHTML] [ 1028] - Browser execution details missing:[]
+[INFO ][2015-11-10 19:07:51,128] [com.java.TemplateGenerator] [writeToHTML] [ 1042] - Browser execution details exist for client:  Simmons First National Bank are: [IE10, IE9]
+[INFO ][2015-11-10 19:07:51,128] [com.java.TemplateGenerator] [writeToHTML] [ 1011] - ---------------------------
+[INFO ][2015-11-10 19:07:51,128] [com.java.TemplateGenerator] [writeToHTML] [ 1012] - clientName: Any Bank USA
+[INFO ][2015-11-10 19:07:51,128] [com.java.TemplateGenerator] [writeToHTML] [ 1028] - Browser execution details missing:[]
+[INFO ][2015-11-10 19:07:51,128] [com.java.TemplateGenerator] [writeToHTML] [ 1042] - Browser execution details exist for client: Any Bank USA are: [IE9]
+[DEBUG][2015-11-10 19:07:51,138] [com.java.EmailTestReport] [postMail_Consolidated] [  460] - Sending Consildated report mail for clients
+[INFO ][2015-11-10 19:07:51,138] [com.java.EmailTestReport] [postMail_Consolidated] [  495] - ---------------------------
+[INFO ][2015-11-10 19:07:51,138] [com.java.EmailTestReport] [postMail_Consolidated] [  496] - clientName:  Simmons First National Bank
+[INFO ][2015-11-10 19:07:51,138] [com.java.EmailTestReport] [postMail_Consolidated] [  515] - Browser execution details missing:[]
+[INFO ][2015-11-10 19:07:51,138] [com.java.EmailTestReport] [postMail_Consolidated] [  535] - Browser execution details exist for client:  Simmons First National Bank are: [IE10, IE9]
+[INFO ][2015-11-10 19:07:51,138] [com.java.EmailTestReport] [postMail_Consolidated] [  495] - ---------------------------
+[INFO ][2015-11-10 19:07:51,138] [com.java.EmailTestReport] [postMail_Consolidated] [  496] - clientName: Any Bank USA
+[INFO ][2015-11-10 19:07:51,138] [com.java.EmailTestReport] [postMail_Consolidated] [  515] - Browser execution details missing:[]
+[INFO ][2015-11-10 19:07:51,138] [com.java.EmailTestReport] [postMail_Consolidated] [  535] - Browser execution details exist for client: Any Bank USA are: [IE9]
