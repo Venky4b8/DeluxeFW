@@ -1,0 +1,834 @@
+[INFO ][2015-11-04 12:22:18,769][com.java.SeleniumDriver] [  213] - Execute Failed Casesfalse
+[INFO ][2015-11-04 12:22:18,774][com.java.SeleniumDriver] [  214] - Browser: IE11
+[INFO ][2015-11-04 12:22:18,774][com.java.SeleniumDriver] [  215] - [1, 2]
+[INFO ][2015-11-04 12:22:18,774][com.java.SeleniumDriver] [  216] - Total TestCases:2
+[INFO ][2015-11-04 12:22:18,774][com.java.SeleniumDriver] [  217] -  Reading Properties from Property File 
+[DEBUG][2015-11-04 12:22:18,774][com.java.SeleniumDriver] [  238] - url : https://clients-xuat.bankersdashboard.com
+[INFO ][2015-11-04 12:22:18,776][com.java.ImportnExport.ExportTestResultsExcel] [  116] - Time Stamp Wed Nov 04 12:22:18 IST 2015
+[INFO ][2015-11-04 12:22:18,776][com.java.ImportnExport.ExportTestResultsExcel] [  175] - OUT FILE : D:\BankersDashboard/TestReports/Test Results_BankersDashBoard_110415_122218_IE11_Bank of North Carolina.xls
+[INFO ][2015-11-04 12:22:18,809][com.java.ImportnExport.ExportTestResultsExcel] [  180] - Test Result file is created
+[DEBUG][2015-11-04 12:22:18,909][com.java.SeleniumDriver] [  425] - Hub ip address is-------172.17.68.34
+[INFO ][2015-11-04 12:22:18,910][com.java.SeleniumDriver] [  451] - Grid URL:http://172.17.68.34:4444/wd/hub
+[INFO ][2015-11-04 12:22:18,910][com.java.SeleniumDriver] [  452] - Capability:Capabilities [{platform=ANY, ensureCleanSession=true, ignoreProtectedModeSettings=true, acceptSslCerts=true, ignoreZoomSetting=true, browserName=internet explorer, browserstack.ie.noFlash=true, version=Node1}]
+[ERROR][2015-11-04 12:22:20,210][com.java.SeleniumDriver] [  496] - Unable invoke browser in grid:Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'FVTIII438F1D', ip: '172.17.68.34', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_55'
+Driver info: driver.version: SeleniumDriver
+[INFO ][2015-11-04 12:22:20,211][com.java.SeleniumDriver] [  498] - Executing on local machine
+[INFO ][2015-11-04 12:22:29,485][com.java.SeleniumDriver] [  248] - IE11is opened
+[INFO ][2015-11-04 12:22:30,381][com.java.SeleniumDriver] [  752] - Test cases to be executed are: [1, 2]
+[INFO ][2015-11-04 12:22:30,381][com.java.ImportnExport.ImportTestDataDetailsExcel] [   49] - test data details path===== D:\BankersDashboard\TestInputs\TestData.xls
+[INFO ][2015-11-04 12:22:41,419][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:22:41,419][com.java.SeleniumDriver] [  789] - Test case being Executed: 1
+[INFO ][2015-11-04 12:22:41,435][com.java.SeleniumDriver] [  800] - Test step:1
+[INFO ][2015-11-04 12:22:41,435][com.java.SeleniumDriver] [  812] - Datavalue is----------Concept#1:1-14
+[INFO ][2015-11-04 12:22:41,435][com.java.SeleniumDriver] [  836] - DataField : test
+[INFO ][2015-11-04 12:22:41,435][com.java.SeleniumDriver] [  838] - DataValue : Concept#1:1-14
+[INFO ][2015-11-04 12:22:41,435][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:22:41,435][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:22:41,436][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:22:41,436][com.java.SeleniumDriver] [  852] - Action Type : ExecuteTestCase
+[INFO ][2015-11-04 12:22:41,453][com.java.TestType] [  411] - The Concept sheet name is ---------- Concept
+[INFO ][2015-11-04 12:22:41,453][com.java.TestType] [  414] - The Concept ID  is ---------- 1
+[DEBUG][2015-11-04 12:22:41,453][com.java.TestType] [  418] - Steps being executted in the Concept are: 1:14
+[INFO ][2015-11-04 12:22:41,453][com.java.TestType] [  425] - Test data details path ---------- D:\BankersDashboard\TestInputs\TestData.xls
+[INFO ][2015-11-04 12:22:41,485][com.java.TestType] [  456] -  str(1) = 1
+[INFO ][2015-11-04 12:22:41,485][com.java.TestType] [  459] - Test case Id is---1
+[INFO ][2015-11-04 12:22:41,485][com.java.TestType] [  461] - 1
+[INFO ][2015-11-04 12:22:41,485][com.java.TestType] [  456] -  str(2) = 1
+[INFO ][2015-11-04 12:22:41,489][com.java.TestType] [  508] - row values are--------{1=com.java.Objects.TestDataDetails@9f20af}
+[INFO ][2015-11-04 12:22:41,489][com.java.TestType] [  456] -  str(1) = 1
+[INFO ][2015-11-04 12:22:41,490][com.java.TestType] [  459] - Test case Id is---1
+[INFO ][2015-11-04 12:22:41,490][com.java.TestType] [  461] - 1
+[INFO ][2015-11-04 12:22:41,490][com.java.TestType] [  456] -  str(2) = 2
+[INFO ][2015-11-04 12:22:41,491][com.java.TestType] [  508] - row values are--------{1=com.java.Objects.TestDataDetails@9f20af, 2=com.java.Objects.TestDataDetails@f86f0e}
+[INFO ][2015-11-04 12:22:41,491][com.java.TestType] [  456] -  str(1) = 1
+[INFO ][2015-11-04 12:22:41,491][com.java.TestType] [  459] - Test case Id is---1
+[INFO ][2015-11-04 12:22:41,491][com.java.TestType] [  461] - 1
+[INFO ][2015-11-04 12:22:41,491][com.java.TestType] [  456] -  str(2) = 3
+[INFO ][2015-11-04 12:22:41,493][com.java.TestType] [  508] - row values are--------{1=com.java.Objects.TestDataDetails@9f20af, 2=com.java.Objects.TestDataDetails@f86f0e, 3=com.java.Objects.TestDataDetails@68c1b6}
+[INFO ][2015-11-04 12:22:41,493][com.java.TestType] [  456] -  str(1) = 1
+[INFO ][2015-11-04 12:22:41,493][com.java.TestType] [  459] - Test case Id is---1
+[INFO ][2015-11-04 12:22:41,493][com.java.TestType] [  461] - 1
+[INFO ][2015-11-04 12:22:41,493][com.java.TestType] [  456] -  str(2) = 4
+[INFO ][2015-11-04 12:22:41,494][com.java.TestType] [  508] - row values are--------{1=com.java.Objects.TestDataDetails@9f20af, 2=com.java.Objects.TestDataDetails@f86f0e, 3=com.java.Objects.TestDataDetails@68c1b6, 4=com.java.Objects.TestDataDetails@dc1400}
+[INFO ][2015-11-04 12:22:41,494][com.java.TestType] [  456] -  str(1) = 1
+[INFO ][2015-11-04 12:22:41,495][com.java.TestType] [  459] - Test case Id is---1
+[INFO ][2015-11-04 12:22:41,495][com.java.TestType] [  461] - 1
+[INFO ][2015-11-04 12:22:41,495][com.java.TestType] [  456] -  str(2) = 5
+[INFO ][2015-11-04 12:22:41,496][com.java.TestType] [  508] - row values are--------{1=com.java.Objects.TestDataDetails@9f20af, 2=com.java.Objects.TestDataDetails@f86f0e, 3=com.java.Objects.TestDataDetails@68c1b6, 4=com.java.Objects.TestDataDetails@dc1400, 5=com.java.Objects.TestDataDetails@1273929}
+[INFO ][2015-11-04 12:22:41,496][com.java.TestType] [  456] -  str(1) = 1
+[INFO ][2015-11-04 12:22:41,496][com.java.TestType] [  459] - Test case Id is---1
+[INFO ][2015-11-04 12:22:41,496][com.java.TestType] [  461] - 1
+[INFO ][2015-11-04 12:22:41,496][com.java.TestType] [  456] -  str(2) = 6
+[INFO ][2015-11-04 12:22:41,497][com.java.TestType] [  508] - row values are--------{1=com.java.Objects.TestDataDetails@9f20af, 2=com.java.Objects.TestDataDetails@f86f0e, 3=com.java.Objects.TestDataDetails@68c1b6, 4=com.java.Objects.TestDataDetails@dc1400, 5=com.java.Objects.TestDataDetails@1273929, 6=com.java.Objects.TestDataDetails@ecb5eb}
+[INFO ][2015-11-04 12:22:41,497][com.java.TestType] [  456] -  str(1) = 1
+[INFO ][2015-11-04 12:22:41,498][com.java.TestType] [  459] - Test case Id is---1
+[INFO ][2015-11-04 12:22:41,498][com.java.TestType] [  461] - 1
+[INFO ][2015-11-04 12:22:41,498][com.java.TestType] [  456] -  str(2) = 7
+[INFO ][2015-11-04 12:22:41,499][com.java.TestType] [  508] - row values are--------{1=com.java.Objects.TestDataDetails@9f20af, 2=com.java.Objects.TestDataDetails@f86f0e, 3=com.java.Objects.TestDataDetails@68c1b6, 4=com.java.Objects.TestDataDetails@dc1400, 5=com.java.Objects.TestDataDetails@1273929, 6=com.java.Objects.TestDataDetails@ecb5eb, 7=com.java.Objects.TestDataDetails@1f8a98}
+[INFO ][2015-11-04 12:22:41,500][com.java.TestType] [  456] -  str(1) = 1
+[INFO ][2015-11-04 12:22:41,500][com.java.TestType] [  459] - Test case Id is---1
+[INFO ][2015-11-04 12:22:41,500][com.java.TestType] [  461] - 1
+[INFO ][2015-11-04 12:22:41,500][com.java.TestType] [  456] -  str(2) = 8
+[INFO ][2015-11-04 12:22:41,501][com.java.TestType] [  508] - row values are--------{1=com.java.Objects.TestDataDetails@9f20af, 2=com.java.Objects.TestDataDetails@f86f0e, 3=com.java.Objects.TestDataDetails@68c1b6, 4=com.java.Objects.TestDataDetails@dc1400, 5=com.java.Objects.TestDataDetails@1273929, 6=com.java.Objects.TestDataDetails@ecb5eb, 7=com.java.Objects.TestDataDetails@1f8a98, 8=com.java.Objects.TestDataDetails@185552b}
+[INFO ][2015-11-04 12:22:41,501][com.java.TestType] [  456] -  str(1) = 1
+[INFO ][2015-11-04 12:22:41,501][com.java.TestType] [  459] - Test case Id is---1
+[INFO ][2015-11-04 12:22:41,501][com.java.TestType] [  461] - 1
+[INFO ][2015-11-04 12:22:41,501][com.java.TestType] [  456] -  str(2) = 9
+[INFO ][2015-11-04 12:22:41,502][com.java.TestType] [  508] - row values are--------{1=com.java.Objects.TestDataDetails@9f20af, 2=com.java.Objects.TestDataDetails@f86f0e, 3=com.java.Objects.TestDataDetails@68c1b6, 4=com.java.Objects.TestDataDetails@dc1400, 5=com.java.Objects.TestDataDetails@1273929, 6=com.java.Objects.TestDataDetails@ecb5eb, 7=com.java.Objects.TestDataDetails@1f8a98, 8=com.java.Objects.TestDataDetails@185552b, 9=com.java.Objects.TestDataDetails@5a7006}
+[INFO ][2015-11-04 12:22:41,502][com.java.TestType] [  456] -  str(1) = 1
+[INFO ][2015-11-04 12:22:41,502][com.java.TestType] [  459] - Test case Id is---1
+[INFO ][2015-11-04 12:22:41,502][com.java.TestType] [  461] - 1
+[INFO ][2015-11-04 12:22:41,502][com.java.TestType] [  456] -  str(2) = 10
+[INFO ][2015-11-04 12:22:41,503][com.java.TestType] [  508] - row values are--------{1=com.java.Objects.TestDataDetails@9f20af, 2=com.java.Objects.TestDataDetails@f86f0e, 3=com.java.Objects.TestDataDetails@68c1b6, 4=com.java.Objects.TestDataDetails@dc1400, 5=com.java.Objects.TestDataDetails@1273929, 6=com.java.Objects.TestDataDetails@ecb5eb, 7=com.java.Objects.TestDataDetails@1f8a98, 8=com.java.Objects.TestDataDetails@185552b, 9=com.java.Objects.TestDataDetails@5a7006, 10=com.java.Objects.TestDataDetails@9676fc}
+[INFO ][2015-11-04 12:22:41,503][com.java.TestType] [  456] -  str(1) = 1
+[INFO ][2015-11-04 12:22:41,503][com.java.TestType] [  459] - Test case Id is---1
+[INFO ][2015-11-04 12:22:41,503][com.java.TestType] [  461] - 1
+[INFO ][2015-11-04 12:22:41,503][com.java.TestType] [  456] -  str(2) = 11
+[INFO ][2015-11-04 12:22:41,504][com.java.TestType] [  508] - row values are--------{1=com.java.Objects.TestDataDetails@9f20af, 2=com.java.Objects.TestDataDetails@f86f0e, 3=com.java.Objects.TestDataDetails@68c1b6, 4=com.java.Objects.TestDataDetails@dc1400, 5=com.java.Objects.TestDataDetails@1273929, 6=com.java.Objects.TestDataDetails@ecb5eb, 7=com.java.Objects.TestDataDetails@1f8a98, 8=com.java.Objects.TestDataDetails@185552b, 9=com.java.Objects.TestDataDetails@5a7006, 10=com.java.Objects.TestDataDetails@9676fc, 11=com.java.Objects.TestDataDetails@11c7571}
+[INFO ][2015-11-04 12:22:41,504][com.java.TestType] [  456] -  str(1) = 1
+[INFO ][2015-11-04 12:22:41,504][com.java.TestType] [  459] - Test case Id is---1
+[INFO ][2015-11-04 12:22:41,504][com.java.TestType] [  461] - 1
+[INFO ][2015-11-04 12:22:41,505][com.java.TestType] [  456] -  str(2) = 12
+[INFO ][2015-11-04 12:22:41,505][com.java.TestType] [  508] - row values are--------{1=com.java.Objects.TestDataDetails@9f20af, 2=com.java.Objects.TestDataDetails@f86f0e, 3=com.java.Objects.TestDataDetails@68c1b6, 4=com.java.Objects.TestDataDetails@dc1400, 5=com.java.Objects.TestDataDetails@1273929, 6=com.java.Objects.TestDataDetails@ecb5eb, 7=com.java.Objects.TestDataDetails@1f8a98, 8=com.java.Objects.TestDataDetails@185552b, 9=com.java.Objects.TestDataDetails@5a7006, 10=com.java.Objects.TestDataDetails@9676fc, 11=com.java.Objects.TestDataDetails@11c7571, 12=com.java.Objects.TestDataDetails@a68bf1}
+[INFO ][2015-11-04 12:22:41,505][com.java.TestType] [  456] -  str(1) = 1
+[INFO ][2015-11-04 12:22:41,505][com.java.TestType] [  459] - Test case Id is---1
+[INFO ][2015-11-04 12:22:41,506][com.java.TestType] [  461] - 1
+[INFO ][2015-11-04 12:22:41,506][com.java.TestType] [  456] -  str(2) = 13
+[INFO ][2015-11-04 12:22:41,506][com.java.TestType] [  508] - row values are--------{1=com.java.Objects.TestDataDetails@9f20af, 2=com.java.Objects.TestDataDetails@f86f0e, 3=com.java.Objects.TestDataDetails@68c1b6, 4=com.java.Objects.TestDataDetails@dc1400, 5=com.java.Objects.TestDataDetails@1273929, 6=com.java.Objects.TestDataDetails@ecb5eb, 7=com.java.Objects.TestDataDetails@1f8a98, 8=com.java.Objects.TestDataDetails@185552b, 9=com.java.Objects.TestDataDetails@5a7006, 10=com.java.Objects.TestDataDetails@9676fc, 11=com.java.Objects.TestDataDetails@11c7571, 12=com.java.Objects.TestDataDetails@a68bf1, 13=com.java.Objects.TestDataDetails@d6e0e0}
+[INFO ][2015-11-04 12:22:41,506][com.java.TestType] [  456] -  str(1) = 1
+[INFO ][2015-11-04 12:22:41,506][com.java.TestType] [  459] - Test case Id is---1
+[INFO ][2015-11-04 12:22:41,507][com.java.TestType] [  461] - 1
+[INFO ][2015-11-04 12:22:41,507][com.java.TestType] [  456] -  str(2) = 14
+[INFO ][2015-11-04 12:22:41,509][com.java.TestType] [  508] - row values are--------{1=com.java.Objects.TestDataDetails@9f20af, 2=com.java.Objects.TestDataDetails@f86f0e, 3=com.java.Objects.TestDataDetails@68c1b6, 4=com.java.Objects.TestDataDetails@dc1400, 5=com.java.Objects.TestDataDetails@1273929, 6=com.java.Objects.TestDataDetails@ecb5eb, 7=com.java.Objects.TestDataDetails@1f8a98, 8=com.java.Objects.TestDataDetails@185552b, 9=com.java.Objects.TestDataDetails@5a7006, 10=com.java.Objects.TestDataDetails@9676fc, 11=com.java.Objects.TestDataDetails@11c7571, 12=com.java.Objects.TestDataDetails@a68bf1, 13=com.java.Objects.TestDataDetails@d6e0e0, 14=com.java.Objects.TestDataDetails@1d73938}
+[INFO ][2015-11-04 12:22:41,509][com.java.TestType] [ 7899] - Looping 1TCID = 1
+[DEBUG][2015-11-04 12:22:41,509][com.java.TestType] [ 7940] - Concept ID:1 :: Step being Executed: 1::1
+[INFO ][2015-11-04 12:22:41,509][com.java.TestType] [ 7978] - dataFields : TXTusername
+[DEBUG][2015-11-04 12:22:41,509][com.java.TestType] [ 7984] - <In Set values of the page>
+[DEBUG][2015-11-04 12:22:41,509][com.java.TestType] [ 7989] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:22:41,510][com.java.TestType] [ 7995] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:22:41,510][com.java.TestType] [ 7998] - Action Type : CLEARANDENTER
+[INFO ][2015-11-04 12:22:41,510][com.java.TestType] [ 3750] - value = valuelabs.ie11.33527
+[INFO ][2015-11-04 12:22:46,359][com.java.TestType] [ 8017] -  RESULT true
+[INFO ][2015-11-04 12:22:46,359][com.java.TestType] [ 8134] - ?   P A S S   ?
+[DEBUG][2015-11-04 12:22:46,359][com.java.TestType] [ 7940] - Concept ID:1 :: Step being Executed: 1::2
+[INFO ][2015-11-04 12:22:46,359][com.java.TestType] [ 7978] - dataFields : TXTpassword
+[DEBUG][2015-11-04 12:22:46,359][com.java.TestType] [ 7984] - <In Set values of the page>
+[DEBUG][2015-11-04 12:22:46,359][com.java.TestType] [ 7989] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:22:46,360][com.java.TestType] [ 7995] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:22:46,360][com.java.TestType] [ 7998] - Action Type : CLEARANDENTER
+[INFO ][2015-11-04 12:22:46,360][com.java.TestType] [ 3750] - value = Password1*
+[INFO ][2015-11-04 12:22:51,301][com.java.TestType] [ 8017] -  RESULT true
+[INFO ][2015-11-04 12:22:51,301][com.java.TestType] [ 8134] - ?   P A S S   ?
+[DEBUG][2015-11-04 12:22:51,301][com.java.TestType] [ 7940] - Concept ID:1 :: Step being Executed: 1::3
+[ERROR][2015-11-04 12:22:51,301][com.java.TestType] [ 7973] - Exception: null
+[INFO ][2015-11-04 12:22:51,301][com.java.TestType] [ 7978] - dataFields : XPH//button[@type='submit']
+[DEBUG][2015-11-04 12:22:51,302][com.java.TestType] [ 7984] - <In Set values of the page>
+[DEBUG][2015-11-04 12:22:51,302][com.java.TestType] [ 7989] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:22:51,302][com.java.TestType] [ 7995] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:22:51,302][com.java.TestType] [ 7998] - Action Type : Click
+[INFO ][2015-11-04 12:22:51,302][com.java.TestType] [ 4063] - Field ::XPH//button[@type='submit']
+[INFO ][2015-11-04 12:22:52,302][com.java.TestType] [ 4122] - BEFORE CLICK
+[INFO ][2015-11-04 12:22:53,163][com.java.TestType] [ 4130] - Unable to click the object Login
+[INFO ][2015-11-04 12:22:53,163][com.java.TestType] [ 8017] -  RESULT true
+[INFO ][2015-11-04 12:22:53,163][com.java.TestType] [ 8134] - ?   P A S S   ?
+[DEBUG][2015-11-04 12:22:53,163][com.java.TestType] [ 7940] - Concept ID:1 :: Step being Executed: 1::4
+[INFO ][2015-11-04 12:22:53,163][com.java.TestType] [ 7978] - dataFields : LNKLogout
+[DEBUG][2015-11-04 12:22:53,163][com.java.TestType] [ 7984] - <In Set values of the page>
+[DEBUG][2015-11-04 12:22:53,163][com.java.TestType] [ 7989] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:22:53,163][com.java.TestType] [ 7995] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:22:53,164][com.java.TestType] [ 7998] - Action Type : WaitForElement
+[INFO ][2015-11-04 12:23:03,770][com.java.TestType] [ 8017] -  RESULT true
+[INFO ][2015-11-04 12:23:03,770][com.java.TestType] [ 8134] - ?   P A S S   ?
+[DEBUG][2015-11-04 12:23:03,770][com.java.TestType] [ 7940] - Concept ID:1 :: Step being Executed: 1::13
+[INFO ][2015-11-04 12:23:03,770][com.java.TestType] [ 7978] - dataFields : LNK
+[DEBUG][2015-11-04 12:23:03,770][com.java.TestType] [ 7984] - <In Set values of the page>
+[DEBUG][2015-11-04 12:23:03,770][com.java.TestType] [ 7989] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:23:03,771][com.java.TestType] [ 7995] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:23:03,771][com.java.TestType] [ 7998] - Action Type : Verify
+[INFO ][2015-11-04 12:23:03,771][com.java.TestType] [ 4876] - field= LNK value= Logout
+[INFO ][2015-11-04 12:23:03,772][com.java.TestType] [ 3750] - value = Logout
+[INFO ][2015-11-04 12:23:03,806][com.java.TestType] [ 8017] -  RESULT true
+[INFO ][2015-11-04 12:23:03,806][com.java.TestType] [ 8134] - ?   P A S S   ?
+[DEBUG][2015-11-04 12:23:03,806][com.java.TestType] [ 7940] - Concept ID:1 :: Step being Executed: 1::14
+[INFO ][2015-11-04 12:23:03,806][com.java.TestType] [ 7978] - dataFields : BTN
+[DEBUG][2015-11-04 12:23:03,807][com.java.TestType] [ 7984] - <In Set values of the page>
+[DEBUG][2015-11-04 12:23:03,807][com.java.TestType] [ 7989] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:23:03,807][com.java.TestType] [ 7995] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:23:03,807][com.java.TestType] [ 7998] - Action Type : Verify
+[INFO ][2015-11-04 12:23:03,807][com.java.TestType] [ 4876] - field= BTN value= //img[contains(@src,'bdlogo.jpg')]
+[INFO ][2015-11-04 12:23:03,807][com.java.TestType] [ 3750] - value = //img[contains(@src,'bdlogo.jpg')]
+[INFO ][2015-11-04 12:23:03,840][com.java.TestType] [ 8017] -  RESULT true
+[INFO ][2015-11-04 12:23:03,840][com.java.TestType] [ 8134] - ?   P A S S   ?
+[INFO ][2015-11-04 12:23:03,840][com.java.TestType] [ 8205] - Looping End......
+[INFO ][2015-11-04 12:23:03,845][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:23:03,845][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:23:03,845][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:23:03,845][com.java.SeleniumDriver] [  789] - Test case being Executed: 1
+[INFO ][2015-11-04 12:23:03,845][com.java.SeleniumDriver] [  800] - Test step:2
+[INFO ][2015-11-04 12:23:03,845][com.java.SeleniumDriver] [  812] - Datavalue is----------Concept#2:1-2
+[INFO ][2015-11-04 12:23:03,846][com.java.SeleniumDriver] [  836] - DataField : test
+[INFO ][2015-11-04 12:23:03,846][com.java.SeleniumDriver] [  838] - DataValue : Concept#2:1-2
+[INFO ][2015-11-04 12:23:03,846][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:23:03,846][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:23:03,846][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:23:03,846][com.java.SeleniumDriver] [  852] - Action Type : ExecuteTestCase
+[INFO ][2015-11-04 12:23:03,846][com.java.TestType] [  411] - The Concept sheet name is ---------- Concept
+[INFO ][2015-11-04 12:23:03,846][com.java.TestType] [  414] - The Concept ID  is ---------- 2
+[DEBUG][2015-11-04 12:23:03,846][com.java.TestType] [  418] - Steps being executted in the Concept are: 1:2
+[INFO ][2015-11-04 12:23:03,847][com.java.TestType] [  425] - Test data details path ---------- D:\BankersDashboard\TestInputs\TestData.xls
+[INFO ][2015-11-04 12:23:03,882][com.java.TestType] [  456] -  str(1) = 2
+[INFO ][2015-11-04 12:23:03,882][com.java.TestType] [  459] - Test case Id is---2
+[INFO ][2015-11-04 12:23:03,882][com.java.TestType] [  461] - 2
+[INFO ][2015-11-04 12:23:03,882][com.java.TestType] [  456] -  str(2) = 1
+[INFO ][2015-11-04 12:23:03,885][com.java.TestType] [  508] - row values are--------{1=com.java.Objects.TestDataDetails@d7fcc5}
+[INFO ][2015-11-04 12:23:03,885][com.java.TestType] [  456] -  str(1) = 2
+[INFO ][2015-11-04 12:23:03,885][com.java.TestType] [  459] - Test case Id is---2
+[INFO ][2015-11-04 12:23:03,885][com.java.TestType] [  461] - 2
+[INFO ][2015-11-04 12:23:03,885][com.java.TestType] [  456] -  str(2) = 2
+[INFO ][2015-11-04 12:23:03,886][com.java.TestType] [  508] - row values are--------{1=com.java.Objects.TestDataDetails@d7fcc5, 2=com.java.Objects.TestDataDetails@13e0f93}
+[INFO ][2015-11-04 12:23:03,886][com.java.TestType] [  456] -  str(1) = 2
+[INFO ][2015-11-04 12:23:03,886][com.java.TestType] [  459] - Test case Id is---2
+[INFO ][2015-11-04 12:23:03,886][com.java.TestType] [  461] - 2
+[INFO ][2015-11-04 12:23:03,886][com.java.TestType] [  456] -  str(2) = 3
+[INFO ][2015-11-04 12:23:03,886][com.java.TestType] [  508] - row values are--------{1=com.java.Objects.TestDataDetails@d7fcc5, 2=com.java.Objects.TestDataDetails@13e0f93, 3=com.java.Objects.TestDataDetails@119587d}
+[INFO ][2015-11-04 12:23:03,887][com.java.TestType] [ 7899] - Looping 1TCID = 2
+[DEBUG][2015-11-04 12:23:03,887][com.java.TestType] [ 7940] - Concept ID:2 :: Step being Executed: 2::1
+[INFO ][2015-11-04 12:23:03,887][com.java.TestType] [ 7978] - dataFields : BNK//select[@id='bank']
+[DEBUG][2015-11-04 12:23:03,887][com.java.TestType] [ 7984] - <In Set values of the page>
+[DEBUG][2015-11-04 12:23:03,887][com.java.TestType] [ 7989] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:23:03,887][com.java.TestType] [ 7995] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:23:03,887][com.java.TestType] [ 7998] - Action Type : Select
+[INFO ][2015-11-04 12:23:03,887][com.java.TestType] [ 3750] - value = PFC
+[INFO ][2015-11-04 12:23:04,089][com.java.TestType] [ 8017] -  RESULT true
+[INFO ][2015-11-04 12:23:04,089][com.java.TestType] [ 8134] - ?   P A S S   ?
+[DEBUG][2015-11-04 12:23:04,089][com.java.TestType] [ 7940] - Concept ID:2 :: Step being Executed: 2::2
+[INFO ][2015-11-04 12:23:04,089][com.java.TestType] [ 7978] - dataFields : LNKLogout
+[DEBUG][2015-11-04 12:23:04,089][com.java.TestType] [ 7984] - <In Set values of the page>
+[DEBUG][2015-11-04 12:23:04,089][com.java.TestType] [ 7989] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:23:04,089][com.java.TestType] [ 7995] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:23:04,089][com.java.TestType] [ 7998] - Action Type : WaitTime
+[DEBUG][2015-11-04 12:23:04,090][com.java.TestType] [ 3654] - sleepTime: 5000
+[INFO ][2015-11-04 12:23:09,090][com.java.TestType] [ 8017] -  RESULT true
+[INFO ][2015-11-04 12:23:09,090][com.java.TestType] [ 8134] - ?   P A S S   ?
+[INFO ][2015-11-04 12:23:09,090][com.java.TestType] [ 8205] - Looping End......
+[INFO ][2015-11-04 12:23:09,094][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:23:09,094][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:23:09,094][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:23:09,094][com.java.SeleniumDriver] [  789] - Test case being Executed: 1
+[INFO ][2015-11-04 12:23:09,094][com.java.SeleniumDriver] [  800] - Test step:3
+[INFO ][2015-11-04 12:23:09,094][com.java.SeleniumDriver] [  812] - Datavalue is----------2
+[INFO ][2015-11-04 12:23:09,095][com.java.SeleniumDriver] [  836] - DataField : XPH//button[contains(text(),'Add Content')]
+[INFO ][2015-11-04 12:23:09,095][com.java.SeleniumDriver] [  838] - DataValue : 2
+[INFO ][2015-11-04 12:23:09,095][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:23:09,095][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:23:09,095][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:23:09,095][com.java.SeleniumDriver] [  852] - Action Type : WAITFORELEMENT
+[INFO ][2015-11-04 12:23:09,138][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:23:09,138][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[DEBUG][2015-11-04 12:23:09,138][com.java.SeleniumDriver] [ 1168] - Case found
+[DEBUG][2015-11-04 12:23:09,138][com.java.SeleniumDriver] [ 1173] - Incrementing ReportCounters[0]:1
+[INFO ][2015-11-04 12:23:09,138][com.java.SeleniumDriver] [ 1192] - The results are-------------------[1, 1, Valid Login, Pass, , Wed Nov 04 12:23:03 IST 2015, 1, 2, Valid Login, Pass, , Wed Nov 04 12:23:09 IST 2015, 1, 3, Valid Login, Pass, , Wed Nov 04 12:23:09 IST 2015]
+[INFO ][2015-11-04 12:23:09,138][com.java.SeleniumDriver] [ 1196] - End time is-------52 sec
+[INFO ][2015-11-04 12:23:09,139][com.java.SeleniumDriver] [ 1197] - The results are-------------------[1, 1, Valid Login, Pass, , Wed Nov 04 12:23:03 IST 2015, 1, 2, Valid Login, Pass, , Wed Nov 04 12:23:09 IST 2015, 1, 3, Valid Login, Pass, , Wed Nov 04 12:23:09 IST 2015]
+[DEBUG][2015-11-04 12:23:09,139][com.java.ImportnExport.ExportTestResultsExcel] [  222] - testResultPath = D:\BankersDashboard/TestReports/Test Results_BankersDashBoard_110415_122218_IE11_Bank of North Carolina.xls
+[DEBUG][2015-11-04 12:23:09,139][com.java.ImportnExport.ExportTestResultsExcel] [  223] - browser is------------IE11
+[DEBUG][2015-11-04 12:23:09,182][com.java.ImportnExport.ExportTestResultsExcel] [  270] - result.size() = 18
+[DEBUG][2015-11-04 12:23:09,182][com.java.ImportnExport.ExportTestResultsExcel] [  274] - No of rows in sheet=1
+[DEBUG][2015-11-04 12:23:09,182][com.java.ImportnExport.ExportTestResultsExcel] [  301] - ..in export..1
+[DEBUG][2015-11-04 12:23:09,182][com.java.ImportnExport.ExportTestResultsExcel] [  301] - ..in export..Valid Login
+[DEBUG][2015-11-04 12:23:09,182][com.java.ImportnExport.ExportTestResultsExcel] [  301] - ..in export..Pass
+[DEBUG][2015-11-04 12:23:09,182][com.java.ImportnExport.ExportTestResultsExcel] [  301] - ..in export..
+[DEBUG][2015-11-04 12:23:09,182][com.java.ImportnExport.ExportTestResultsExcel] [  301] - ..in export..Wed Nov 04 12:23:03 IST 2015
+[INFO ][2015-11-04 12:23:09,184][com.java.SeleniumDriver] [ 1255] - out loop:0 size:2 TestCases:[1, 2] testcases:[1, 2]
+[INFO ][2015-11-04 12:23:09,184][com.java.ImportnExport.ImportTestDataDetailsExcel] [   49] - test data details path===== D:\BankersDashboard\TestInputs\TestData.xls
+[INFO ][2015-11-04 12:23:33,075][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:23:33,075][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:23:33,075][com.java.SeleniumDriver] [  800] - Test step:1
+[INFO ][2015-11-04 12:23:33,075][com.java.SeleniumDriver] [  812] - Datavalue is----------Logout
+[INFO ][2015-11-04 12:23:33,076][com.java.SeleniumDriver] [  836] - DataField : BTN
+[INFO ][2015-11-04 12:23:33,077][com.java.SeleniumDriver] [  838] - DataValue : Logout
+[INFO ][2015-11-04 12:23:33,077][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:23:33,077][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:23:33,077][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:23:33,077][com.java.SeleniumDriver] [  852] - Action Type : Verify
+[INFO ][2015-11-04 12:23:33,077][com.java.TestType] [ 4876] - field= BTN value= Logout
+[INFO ][2015-11-04 12:23:33,077][com.java.TestType] [ 3750] - value = Logout
+[INFO ][2015-11-04 12:23:33,110][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:23:33,110][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:23:33,110][com.java.SeleniumDriver] [ 1108] - step change to 3
+[INFO ][2015-11-04 12:23:33,110][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:23:33,110][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:23:33,110][com.java.SeleniumDriver] [  800] - Test step:3
+[INFO ][2015-11-04 12:23:33,110][com.java.SeleniumDriver] [  812] - Datavalue is----------Concept#2:1-2
+[INFO ][2015-11-04 12:23:33,110][com.java.SeleniumDriver] [  836] - DataField : test
+[INFO ][2015-11-04 12:23:33,110][com.java.SeleniumDriver] [  838] - DataValue : Concept#2:1-2
+[INFO ][2015-11-04 12:23:33,111][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:23:33,111][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:23:33,111][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:23:33,111][com.java.SeleniumDriver] [  852] - Action Type : ExecuteTestCase
+[INFO ][2015-11-04 12:23:33,111][com.java.TestType] [  411] - The Concept sheet name is ---------- Concept
+[INFO ][2015-11-04 12:23:33,111][com.java.TestType] [  414] - The Concept ID  is ---------- 2
+[DEBUG][2015-11-04 12:23:33,111][com.java.TestType] [  418] - Steps being executted in the Concept are: 1:2
+[INFO ][2015-11-04 12:23:33,111][com.java.TestType] [  425] - Test data details path ---------- D:\BankersDashboard\TestInputs\TestData.xls
+[INFO ][2015-11-04 12:23:33,141][com.java.TestType] [  456] -  str(1) = 2
+[INFO ][2015-11-04 12:23:33,141][com.java.TestType] [  459] - Test case Id is---2
+[INFO ][2015-11-04 12:23:33,141][com.java.TestType] [  461] - 2
+[INFO ][2015-11-04 12:23:33,141][com.java.TestType] [  456] -  str(2) = 1
+[INFO ][2015-11-04 12:23:33,143][com.java.TestType] [  508] - row values are--------{1=com.java.Objects.TestDataDetails@1854b5f}
+[INFO ][2015-11-04 12:23:33,143][com.java.TestType] [  456] -  str(1) = 2
+[INFO ][2015-11-04 12:23:33,143][com.java.TestType] [  459] - Test case Id is---2
+[INFO ][2015-11-04 12:23:33,143][com.java.TestType] [  461] - 2
+[INFO ][2015-11-04 12:23:33,143][com.java.TestType] [  456] -  str(2) = 2
+[INFO ][2015-11-04 12:23:33,144][com.java.TestType] [  508] - row values are--------{1=com.java.Objects.TestDataDetails@1854b5f, 2=com.java.Objects.TestDataDetails@d569b5}
+[INFO ][2015-11-04 12:23:33,144][com.java.TestType] [  456] -  str(1) = 2
+[INFO ][2015-11-04 12:23:33,144][com.java.TestType] [  459] - Test case Id is---2
+[INFO ][2015-11-04 12:23:33,144][com.java.TestType] [  461] - 2
+[INFO ][2015-11-04 12:23:33,144][com.java.TestType] [  456] -  str(2) = 3
+[INFO ][2015-11-04 12:23:33,145][com.java.TestType] [  508] - row values are--------{1=com.java.Objects.TestDataDetails@1854b5f, 2=com.java.Objects.TestDataDetails@d569b5, 3=com.java.Objects.TestDataDetails@5215e7}
+[INFO ][2015-11-04 12:23:33,145][com.java.TestType] [ 7899] - Looping 1TCID = 2
+[DEBUG][2015-11-04 12:23:33,145][com.java.TestType] [ 7940] - Concept ID:2 :: Step being Executed: 2::1
+[INFO ][2015-11-04 12:23:33,145][com.java.TestType] [ 7978] - dataFields : BNK//select[@id='bank']
+[DEBUG][2015-11-04 12:23:33,145][com.java.TestType] [ 7984] - <In Set values of the page>
+[DEBUG][2015-11-04 12:23:33,145][com.java.TestType] [ 7989] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:23:33,145][com.java.TestType] [ 7995] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:23:33,145][com.java.TestType] [ 7998] - Action Type : Select
+[INFO ][2015-11-04 12:23:33,146][com.java.TestType] [ 3750] - value = PFC
+[INFO ][2015-11-04 12:23:33,343][com.java.TestType] [ 8017] -  RESULT true
+[INFO ][2015-11-04 12:23:33,343][com.java.TestType] [ 8134] - ?   P A S S   ?
+[DEBUG][2015-11-04 12:23:33,343][com.java.TestType] [ 7940] - Concept ID:2 :: Step being Executed: 2::2
+[INFO ][2015-11-04 12:23:33,343][com.java.TestType] [ 7978] - dataFields : LNKLogout
+[DEBUG][2015-11-04 12:23:33,343][com.java.TestType] [ 7984] - <In Set values of the page>
+[DEBUG][2015-11-04 12:23:33,343][com.java.TestType] [ 7989] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:23:33,343][com.java.TestType] [ 7995] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:23:33,343][com.java.TestType] [ 7998] - Action Type : WaitTime
+[DEBUG][2015-11-04 12:23:33,343][com.java.TestType] [ 3654] - sleepTime: 5000
+[INFO ][2015-11-04 12:23:38,343][com.java.TestType] [ 8017] -  RESULT true
+[INFO ][2015-11-04 12:23:38,343][com.java.TestType] [ 8134] - ?   P A S S   ?
+[INFO ][2015-11-04 12:23:38,343][com.java.TestType] [ 8205] - Looping End......
+[INFO ][2015-11-04 12:23:38,347][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:23:38,347][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:23:38,347][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:23:38,347][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:23:38,347][com.java.SeleniumDriver] [  800] - Test step:4
+[INFO ][2015-11-04 12:23:38,348][com.java.SeleniumDriver] [  812] - Datavalue is----------null
+[DEBUG][2015-11-04 12:23:38,348][com.java.SeleniumDriver] [  830] - Exception: null
+[INFO ][2015-11-04 12:23:38,348][com.java.SeleniumDriver] [  836] - DataField : //span[@class='icon-stack']&&//ul[@id='ReportPackages']/li[2]/a
+[INFO ][2015-11-04 12:23:38,348][com.java.SeleniumDriver] [  838] - DataValue : 
+[INFO ][2015-11-04 12:23:38,348][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:23:38,348][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:23:38,348][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:23:38,348][com.java.SeleniumDriver] [  852] - Action Type : MOUSEOVER
+[INFO ][2015-11-04 12:23:48,175][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:23:48,175][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:23:48,175][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:23:48,175][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:23:48,175][com.java.SeleniumDriver] [  800] - Test step:5
+[INFO ][2015-11-04 12:23:48,175][com.java.SeleniumDriver] [  812] - Datavalue is----------3
+[INFO ][2015-11-04 12:23:48,175][com.java.SeleniumDriver] [  836] - DataField : BTNdivHelpText
+[INFO ][2015-11-04 12:23:48,175][com.java.SeleniumDriver] [  838] - DataValue : 3
+[INFO ][2015-11-04 12:23:48,175][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:23:48,175][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:23:48,177][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:23:48,177][com.java.SeleniumDriver] [  852] - Action Type : WAITFORELEMENT
+[INFO ][2015-11-04 12:23:49,397][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:23:49,397][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:23:49,397][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:23:49,397][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:23:49,397][com.java.SeleniumDriver] [  800] - Test step:6
+[INFO ][2015-11-04 12:23:49,397][com.java.SeleniumDriver] [  812] - Datavalue is----------null
+[DEBUG][2015-11-04 12:23:49,397][com.java.SeleniumDriver] [  830] - Exception: null
+[INFO ][2015-11-04 12:23:49,397][com.java.SeleniumDriver] [  836] - DataField : BTNframeDialogContent
+[INFO ][2015-11-04 12:23:49,397][com.java.SeleniumDriver] [  838] - DataValue : 
+[INFO ][2015-11-04 12:23:49,397][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:23:49,397][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:23:49,398][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:23:49,398][com.java.SeleniumDriver] [  852] - Action Type : SELECTFRAME
+[INFO ][2015-11-04 12:23:50,667][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:23:50,667][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:23:50,667][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:23:50,667][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:23:50,667][com.java.SeleniumDriver] [  800] - Test step:7
+[INFO ][2015-11-04 12:23:50,667][com.java.SeleniumDriver] [  812] - Datavalue is----------//div[@class='ui-widget-content']/div/button
+[INFO ][2015-11-04 12:23:50,667][com.java.SeleniumDriver] [  836] - DataField : BTN
+[INFO ][2015-11-04 12:23:50,667][com.java.SeleniumDriver] [  838] - DataValue : //div[@class='ui-widget-content']/div/button
+[INFO ][2015-11-04 12:23:50,668][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:23:50,668][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:23:50,668][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:23:50,668][com.java.SeleniumDriver] [  852] - Action Type : VERIFY
+[INFO ][2015-11-04 12:23:50,668][com.java.TestType] [ 4876] - field= BTN value= //div[@class='ui-widget-content']/div/button
+[INFO ][2015-11-04 12:23:50,668][com.java.TestType] [ 3750] - value = //div[@class='ui-widget-content']/div/button
+[INFO ][2015-11-04 12:23:50,712][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:23:50,712][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:23:50,712][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:23:50,712][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:23:50,713][com.java.SeleniumDriver] [  800] - Test step:8
+[INFO ][2015-11-04 12:23:50,713][com.java.SeleniumDriver] [  812] - Datavalue is----------3
+[INFO ][2015-11-04 12:23:50,713][com.java.SeleniumDriver] [  836] - DataField : XPH//span[@class='glyphicon glyphicon-plus']
+[INFO ][2015-11-04 12:23:50,713][com.java.SeleniumDriver] [  838] - DataValue : 3
+[INFO ][2015-11-04 12:23:50,713][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:23:50,713][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:23:50,713][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:23:50,713][com.java.SeleniumDriver] [  852] - Action Type : WAITFORELEMENT
+[INFO ][2015-11-04 12:23:50,737][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:23:50,737][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:23:50,737][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:23:50,737][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:23:50,737][com.java.SeleniumDriver] [  800] - Test step:9
+[INFO ][2015-11-04 12:23:50,737][com.java.SeleniumDriver] [  812] - Datavalue is----------null
+[DEBUG][2015-11-04 12:23:50,737][com.java.SeleniumDriver] [  830] - Exception: null
+[INFO ][2015-11-04 12:23:50,737][com.java.SeleniumDriver] [  836] - DataField : XPH//span[@class='glyphicon glyphicon-plus']
+[INFO ][2015-11-04 12:23:50,737][com.java.SeleniumDriver] [  838] - DataValue : 
+[INFO ][2015-11-04 12:23:50,737][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:23:50,737][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:23:50,737][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:23:50,738][com.java.SeleniumDriver] [  852] - Action Type : CLICK
+[INFO ][2015-11-04 12:23:50,738][com.java.TestType] [ 4063] - Field ::XPH//span[@class='glyphicon glyphicon-plus']
+[INFO ][2015-11-04 12:23:51,739][com.java.TestType] [ 4122] - BEFORE CLICK
+[INFO ][2015-11-04 12:23:53,000][com.java.TestType] [ 4130] - Unable to click the object +' Button
+[INFO ][2015-11-04 12:23:53,000][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:23:53,000][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:23:53,000][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:23:53,000][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:23:53,000][com.java.SeleniumDriver] [  800] - Test step:10
+[INFO ][2015-11-04 12:23:53,000][com.java.SeleniumDriver] [  812] - Datavalue is----------3
+[INFO ][2015-11-04 12:23:53,000][com.java.SeleniumDriver] [  836] - DataField : XPH//span[@class='dlg_Label']
+[INFO ][2015-11-04 12:23:53,000][com.java.SeleniumDriver] [  838] - DataValue : 3
+[INFO ][2015-11-04 12:23:53,000][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:23:53,001][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:23:53,001][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:23:53,001][com.java.SeleniumDriver] [  852] - Action Type : WAITFORELEMENT
+[INFO ][2015-11-04 12:23:53,025][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:23:53,025][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:23:53,025][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:23:53,025][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:23:53,025][com.java.SeleniumDriver] [  800] - Test step:11
+[INFO ][2015-11-04 12:23:53,025][com.java.SeleniumDriver] [  812] - Datavalue is----------Package Name
+[INFO ][2015-11-04 12:23:53,025][com.java.SeleniumDriver] [  836] - DataField : XPH//span[@class='dlg_Label']
+[INFO ][2015-11-04 12:23:53,025][com.java.SeleniumDriver] [  838] - DataValue : Package Name
+[INFO ][2015-11-04 12:23:53,026][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:23:53,026][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:23:53,026][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:23:53,026][com.java.SeleniumDriver] [  852] - Action Type : VERIFY
+[INFO ][2015-11-04 12:23:53,026][com.java.TestType] [ 4876] - field= XPH//span[@class='dlg_Label'] value= Package Name
+[INFO ][2015-11-04 12:23:53,026][com.java.TestType] [ 3750] - value = Package Name
+[INFO ][2015-11-04 12:23:53,115][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:23:53,115][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:23:53,115][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:23:53,115][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:23:53,115][com.java.SeleniumDriver] [  800] - Test step:12
+[INFO ][2015-11-04 12:23:53,115][com.java.SeleniumDriver] [  812] - Datavalue is----------3
+[INFO ][2015-11-04 12:23:53,115][com.java.SeleniumDriver] [  836] - DataField : XPH//div[contains(@id,'ember')]/div//input[contains(@class, 'ember-view ember-text-')]
+[INFO ][2015-11-04 12:23:53,115][com.java.SeleniumDriver] [  838] - DataValue : 3
+[INFO ][2015-11-04 12:23:53,115][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:23:53,116][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:23:53,116][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:23:53,116][com.java.SeleniumDriver] [  852] - Action Type : WAITFORELEMENT
+[INFO ][2015-11-04 12:23:53,149][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:23:53,149][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:23:53,149][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:23:53,149][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:23:53,149][com.java.SeleniumDriver] [  800] - Test step:13
+[INFO ][2015-11-04 12:23:53,149][com.java.SeleniumDriver] [  812] - Datavalue is----------null
+[DEBUG][2015-11-04 12:23:53,150][com.java.SeleniumDriver] [  830] - Exception: null
+[INFO ][2015-11-04 12:23:53,150][com.java.SeleniumDriver] [  836] - DataField : XPH//div[contains(@id,'ember')]/div//input[contains(@class, 'ember-view ember-text-')]
+[INFO ][2015-11-04 12:23:53,150][com.java.SeleniumDriver] [  838] - DataValue : 
+[INFO ][2015-11-04 12:23:53,150][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:23:53,150][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:23:53,150][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:23:53,150][com.java.SeleniumDriver] [  852] - Action Type : CLICK
+[INFO ][2015-11-04 12:23:53,150][com.java.TestType] [ 4063] - Field ::XPH//div[contains(@id,'ember')]/div//input[contains(@class, 'ember-view ember-text-')]
+[INFO ][2015-11-04 12:23:54,150][com.java.TestType] [ 4122] - BEFORE CLICK
+[INFO ][2015-11-04 12:23:54,908][com.java.TestType] [ 4130] - Unable to click the object PackageName Textfield
+[INFO ][2015-11-04 12:23:54,908][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:23:54,908][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:23:54,908][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:23:54,908][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:23:54,908][com.java.SeleniumDriver] [  800] - Test step:14
+[INFO ][2015-11-04 12:23:54,908][com.java.SeleniumDriver] [  812] - Datavalue is----------RNDVL_Test#
+[INFO ][2015-11-04 12:23:54,908][com.java.SeleniumDriver] [  836] - DataField : TXT//div[contains(@id,'ember')]/div//input[contains(@class, 'ember-view ember-text-')]
+[INFO ][2015-11-04 12:23:54,908][com.java.SeleniumDriver] [  838] - DataValue : RNDVL_Test#
+[INFO ][2015-11-04 12:23:54,908][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:23:54,908][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:23:54,909][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:23:54,909][com.java.SeleniumDriver] [  852] - Action Type : CLEARANDENTER
+[INFO ][2015-11-04 12:23:54,909][com.java.TestType] [ 3750] - value = VL_Test#46283
+[INFO ][2015-11-04 12:23:55,747][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:23:55,747][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:23:55,747][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:23:55,747][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:23:55,747][com.java.SeleniumDriver] [  800] - Test step:15
+[INFO ][2015-11-04 12:23:55,747][com.java.SeleniumDriver] [  812] - Datavalue is----------null
+[DEBUG][2015-11-04 12:23:55,747][com.java.SeleniumDriver] [  830] - Exception: null
+[INFO ][2015-11-04 12:23:55,747][com.java.SeleniumDriver] [  836] - DataField : null
+[INFO ][2015-11-04 12:23:55,747][com.java.SeleniumDriver] [  838] - DataValue : 
+[INFO ][2015-11-04 12:23:55,748][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:23:55,748][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:23:55,748][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:23:55,748][com.java.SeleniumDriver] [  852] - Action Type : WAITTIME
+[DEBUG][2015-11-04 12:23:55,748][com.java.TestType] [ 3654] - sleepTime: 10000
+[INFO ][2015-11-04 12:24:05,749][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:24:05,749][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:24:05,749][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:24:05,749][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:24:05,749][com.java.SeleniumDriver] [  800] - Test step:16
+[INFO ][2015-11-04 12:24:05,749][com.java.SeleniumDriver] [  812] - Datavalue is----------PackageName
+[INFO ][2015-11-04 12:24:05,749][com.java.SeleniumDriver] [  836] - DataField : TXT//div[contains(@id,'ember')]/div//input[contains(@class, 'ember-view ember-text-')]
+[INFO ][2015-11-04 12:24:05,749][com.java.SeleniumDriver] [  838] - DataValue : PackageName
+[INFO ][2015-11-04 12:24:05,749][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:24:05,749][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:24:05,749][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:24:05,750][com.java.SeleniumDriver] [  852] - Action Type : STOREVALUE
+[INFO ][2015-11-04 12:24:05,750][com.java.TestType] [ 5810] - field= TXT//div[contains(@id,'ember')]/div//input[contains(@class, 'ember-view ember-text-')]
+[DEBUG][2015-11-04 12:24:05,817][com.java.TestType] [ 5824] - Key:: PackageName  Value:: VL_Test#46283
+[INFO ][2015-11-04 12:24:05,817][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:24:05,817][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:24:05,817][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:24:05,817][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:24:05,817][com.java.SeleniumDriver] [  800] - Test step:17
+[INFO ][2015-11-04 12:24:05,817][com.java.SeleniumDriver] [  812] - Datavalue is----------5
+[INFO ][2015-11-04 12:24:05,817][com.java.SeleniumDriver] [  836] - DataField : XPH//span[contains(text(),'Save')]
+[INFO ][2015-11-04 12:24:05,817][com.java.SeleniumDriver] [  838] - DataValue : 5
+[INFO ][2015-11-04 12:24:05,817][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:24:05,818][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:24:05,818][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:24:05,818][com.java.SeleniumDriver] [  852] - Action Type : WAITFORELEMENT
+[INFO ][2015-11-04 12:24:05,840][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:24:05,840][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:24:05,840][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:24:05,840][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:24:05,841][com.java.SeleniumDriver] [  800] - Test step:18
+[INFO ][2015-11-04 12:24:05,841][com.java.SeleniumDriver] [  812] - Datavalue is----------null
+[DEBUG][2015-11-04 12:24:05,841][com.java.SeleniumDriver] [  830] - Exception: null
+[INFO ][2015-11-04 12:24:05,841][com.java.SeleniumDriver] [  836] - DataField : XPH//span[contains(text(),'Save')]
+[INFO ][2015-11-04 12:24:05,841][com.java.SeleniumDriver] [  838] - DataValue : 
+[INFO ][2015-11-04 12:24:05,841][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:24:05,841][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:24:05,841][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:24:05,841][com.java.SeleniumDriver] [  852] - Action Type : CLICK
+[INFO ][2015-11-04 12:24:05,841][com.java.TestType] [ 4063] - Field ::XPH//span[contains(text(),'Save')]
+[INFO ][2015-11-04 12:24:06,841][com.java.TestType] [ 4122] - BEFORE CLICK
+[INFO ][2015-11-04 12:24:08,535][com.java.TestType] [ 4130] - Unable to click the object Save Button
+[INFO ][2015-11-04 12:24:08,535][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:24:08,535][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:24:08,535][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:24:08,535][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:24:08,535][com.java.SeleniumDriver] [  800] - Test step:19
+[INFO ][2015-11-04 12:24:08,535][com.java.SeleniumDriver] [  812] - Datavalue is----------3
+[INFO ][2015-11-04 12:24:08,535][com.java.SeleniumDriver] [  836] - DataField : XPH//span[@class='dlg_Label']
+[INFO ][2015-11-04 12:24:08,535][com.java.SeleniumDriver] [  838] - DataValue : 3
+[INFO ][2015-11-04 12:24:08,535][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:24:08,535][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:24:08,536][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:24:08,536][com.java.SeleniumDriver] [  852] - Action Type : WAITFORELEMENT
+[INFO ][2015-11-04 12:24:08,560][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:24:08,560][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:24:08,560][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:24:08,560][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:24:08,560][com.java.SeleniumDriver] [  800] - Test step:20
+[INFO ][2015-11-04 12:24:08,560][com.java.SeleniumDriver] [  812] - Datavalue is----------Current Package
+[INFO ][2015-11-04 12:24:08,560][com.java.SeleniumDriver] [  836] - DataField : XPH//span[@class='dlg_Label']
+[INFO ][2015-11-04 12:24:08,560][com.java.SeleniumDriver] [  838] - DataValue : Current Package
+[INFO ][2015-11-04 12:24:08,560][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:24:08,560][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:24:08,560][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:24:08,560][com.java.SeleniumDriver] [  852] - Action Type : VERIFY
+[INFO ][2015-11-04 12:24:08,561][com.java.TestType] [ 4876] - field= XPH//span[@class='dlg_Label'] value= Current Package
+[INFO ][2015-11-04 12:24:08,561][com.java.TestType] [ 3750] - value = Current Package
+[INFO ][2015-11-04 12:24:08,639][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:24:08,639][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:24:08,639][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:24:08,639][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:24:08,639][com.java.SeleniumDriver] [  800] - Test step:21
+[INFO ][2015-11-04 12:24:08,639][com.java.SeleniumDriver] [  812] - Datavalue is----------index:2
+[INFO ][2015-11-04 12:24:08,639][com.java.SeleniumDriver] [  836] - DataField : COB//select[@action='goToNewReport']
+[INFO ][2015-11-04 12:24:08,639][com.java.SeleniumDriver] [  838] - DataValue : index:2
+[INFO ][2015-11-04 12:24:08,639][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:24:08,640][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:24:08,640][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:24:08,640][com.java.SeleniumDriver] [  852] - Action Type : SELECT
+[INFO ][2015-11-04 12:24:08,640][com.java.TestType] [ 3750] - value = 2
+[INFO ][2015-11-04 12:24:08,721][com.java.TestType] [ 3868] -  In COB //select[@action='goToNewReport'] : 2
+[INFO ][2015-11-04 12:24:10,877][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:24:10,877][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:24:10,877][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:24:10,877][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:24:10,877][com.java.SeleniumDriver] [  800] - Test step:22
+[INFO ][2015-11-04 12:24:10,877][com.java.SeleniumDriver] [  812] - Datavalue is----------5
+[INFO ][2015-11-04 12:24:10,877][com.java.SeleniumDriver] [  836] - DataField : XPH//td/input[contains(@class, 'ember-view ember-')]
+[INFO ][2015-11-04 12:24:10,877][com.java.SeleniumDriver] [  838] - DataValue : 5
+[INFO ][2015-11-04 12:24:10,877][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:24:10,878][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:24:10,878][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:24:10,878][com.java.SeleniumDriver] [  852] - Action Type : WAITFORELEMENT
+[INFO ][2015-11-04 12:24:11,391][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:24:11,391][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:24:11,391][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:24:11,391][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:24:11,391][com.java.SeleniumDriver] [  800] - Test step:23
+[INFO ][2015-11-04 12:24:11,391][com.java.SeleniumDriver] [  812] - Datavalue is----------Executive Summary (12mos.)
+[INFO ][2015-11-04 12:24:11,391][com.java.SeleniumDriver] [  836] - DataField : XPH//td/input[contains(@class, 'ember-view ember-')]
+[INFO ][2015-11-04 12:24:11,391][com.java.SeleniumDriver] [  838] - DataValue : Executive Summary (12mos.)
+[INFO ][2015-11-04 12:24:11,391][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:24:11,391][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:24:11,391][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:24:11,392][com.java.SeleniumDriver] [  852] - Action Type : VERIFY
+[INFO ][2015-11-04 12:24:11,392][com.java.TestType] [ 4876] - field= XPH//td/input[contains(@class, 'ember-view ember-')] value= Executive Summary (12mos.)
+[INFO ][2015-11-04 12:24:11,392][com.java.TestType] [ 3750] - value = Executive Summary (12mos.)
+[INFO ][2015-11-04 12:24:11,490][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:24:11,490][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:24:11,490][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:24:11,490][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:24:11,490][com.java.SeleniumDriver] [  800] - Test step:24
+[INFO ][2015-11-04 12:24:11,490][com.java.SeleniumDriver] [  812] - Datavalue is----------index:1
+[INFO ][2015-11-04 12:24:11,490][com.java.SeleniumDriver] [  836] - DataField : COB//td[@colspan='2']/select
+[INFO ][2015-11-04 12:24:11,490][com.java.SeleniumDriver] [  838] - DataValue : index:1
+[INFO ][2015-11-04 12:24:11,490][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:24:11,490][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:24:11,490][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:24:11,490][com.java.SeleniumDriver] [  852] - Action Type : SELECT
+[INFO ][2015-11-04 12:24:11,490][com.java.TestType] [ 3750] - value = 1
+[INFO ][2015-11-04 12:24:11,571][com.java.TestType] [ 3868] -  In COB //td[@colspan='2']/select : 1
+[INFO ][2015-11-04 12:24:12,243][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:24:12,243][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:24:12,243][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:24:12,243][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:24:12,245][com.java.SeleniumDriver] [  800] - Test step:25
+[INFO ][2015-11-04 12:24:12,245][com.java.SeleniumDriver] [  812] - Datavalue is----------3
+[INFO ][2015-11-04 12:24:12,245][com.java.SeleniumDriver] [  836] - DataField : XPH//span[contains(text(),'Save')]
+[INFO ][2015-11-04 12:24:12,245][com.java.SeleniumDriver] [  838] - DataValue : 3
+[INFO ][2015-11-04 12:24:12,245][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:24:12,245][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:24:12,245][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:24:12,245][com.java.SeleniumDriver] [  852] - Action Type : WAITFORELEMENT
+[INFO ][2015-11-04 12:24:12,308][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:24:12,308][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:24:12,308][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:24:12,308][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:24:12,308][com.java.SeleniumDriver] [  800] - Test step:26
+[INFO ][2015-11-04 12:24:12,308][com.java.SeleniumDriver] [  812] - Datavalue is----------null
+[DEBUG][2015-11-04 12:24:12,309][com.java.SeleniumDriver] [  830] - Exception: null
+[INFO ][2015-11-04 12:24:12,309][com.java.SeleniumDriver] [  836] - DataField : XPH//span[contains(text(),'Save')]
+[INFO ][2015-11-04 12:24:12,309][com.java.SeleniumDriver] [  838] - DataValue : 
+[INFO ][2015-11-04 12:24:12,309][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:24:12,309][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:24:12,309][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:24:12,309][com.java.SeleniumDriver] [  852] - Action Type : CLICK
+[INFO ][2015-11-04 12:24:12,309][com.java.TestType] [ 4063] - Field ::XPH//span[contains(text(),'Save')]
+[INFO ][2015-11-04 12:24:13,309][com.java.TestType] [ 4122] - BEFORE CLICK
+[INFO ][2015-11-04 12:24:14,116][com.java.TestType] [ 4130] - Unable to click the object Save Button
+[INFO ][2015-11-04 12:24:14,117][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:24:14,117][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:24:14,117][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:24:14,117][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:24:14,117][com.java.SeleniumDriver] [  800] - Test step:27
+[INFO ][2015-11-04 12:24:14,117][com.java.SeleniumDriver] [  812] - Datavalue is----------3
+[INFO ][2015-11-04 12:24:14,117][com.java.SeleniumDriver] [  836] - DataField : XPH//span[contains(text(), 'Finished')]
+[INFO ][2015-11-04 12:24:14,117][com.java.SeleniumDriver] [  838] - DataValue : 3
+[INFO ][2015-11-04 12:24:14,117][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:24:14,117][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:24:14,117][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:24:14,117][com.java.SeleniumDriver] [  852] - Action Type : WAITFORELEMENT
+[INFO ][2015-11-04 12:24:15,170][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:24:15,170][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:24:15,170][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:24:15,170][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:24:15,170][com.java.SeleniumDriver] [  800] - Test step:28
+[INFO ][2015-11-04 12:24:15,170][com.java.SeleniumDriver] [  812] - Datavalue is----------index:2
+[INFO ][2015-11-04 12:24:15,170][com.java.SeleniumDriver] [  836] - DataField : COB//select[@action='goToNewReport']
+[INFO ][2015-11-04 12:24:15,170][com.java.SeleniumDriver] [  838] - DataValue : index:2
+[INFO ][2015-11-04 12:24:15,170][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:24:15,170][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:24:15,170][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:24:15,170][com.java.SeleniumDriver] [  852] - Action Type : SELECT
+[INFO ][2015-11-04 12:24:15,171][com.java.TestType] [ 3750] - value = 2
+[INFO ][2015-11-04 12:24:15,250][com.java.TestType] [ 3868] -  In COB //select[@action='goToNewReport'] : 2
+[INFO ][2015-11-04 12:24:17,401][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:24:17,401][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:24:17,401][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:24:17,401][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:24:17,401][com.java.SeleniumDriver] [  800] - Test step:29
+[INFO ][2015-11-04 12:24:17,401][com.java.SeleniumDriver] [  812] - Datavalue is----------5
+[INFO ][2015-11-04 12:24:17,401][com.java.SeleniumDriver] [  836] - DataField : XPH//td/input[contains(@class, 'ember-view ember-')]
+[INFO ][2015-11-04 12:24:17,401][com.java.SeleniumDriver] [  838] - DataValue : 5
+[INFO ][2015-11-04 12:24:17,401][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:24:17,402][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:24:17,402][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:24:17,402][com.java.SeleniumDriver] [  852] - Action Type : WAITFORELEMENT
+[INFO ][2015-11-04 12:24:17,864][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:24:17,864][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:24:17,864][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:24:17,864][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:24:17,864][com.java.SeleniumDriver] [  800] - Test step:30
+[INFO ][2015-11-04 12:24:17,864][com.java.SeleniumDriver] [  812] - Datavalue is----------Executive Summary (12mos.)
+[INFO ][2015-11-04 12:24:17,864][com.java.SeleniumDriver] [  836] - DataField : XPH//td/input[contains(@class, 'ember-view ember-')]
+[INFO ][2015-11-04 12:24:17,864][com.java.SeleniumDriver] [  838] - DataValue : Executive Summary (12mos.)
+[INFO ][2015-11-04 12:24:17,864][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:24:17,864][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:24:17,864][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:24:17,864][com.java.SeleniumDriver] [  852] - Action Type : VERIFY
+[INFO ][2015-11-04 12:24:17,864][com.java.TestType] [ 4876] - field= XPH//td/input[contains(@class, 'ember-view ember-')] value= Executive Summary (12mos.)
+[INFO ][2015-11-04 12:24:17,865][com.java.TestType] [ 3750] - value = Executive Summary (12mos.)
+[INFO ][2015-11-04 12:24:17,963][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:24:17,963][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:24:17,963][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:24:17,963][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:24:17,963][com.java.SeleniumDriver] [  800] - Test step:31
+[INFO ][2015-11-04 12:24:17,963][com.java.SeleniumDriver] [  812] - Datavalue is----------index:2
+[INFO ][2015-11-04 12:24:17,963][com.java.SeleniumDriver] [  836] - DataField : COB//td[@colspan='2']/select
+[INFO ][2015-11-04 12:24:17,963][com.java.SeleniumDriver] [  838] - DataValue : index:2
+[INFO ][2015-11-04 12:24:17,963][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:24:17,963][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:24:17,963][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:24:17,963][com.java.SeleniumDriver] [  852] - Action Type : SELECT
+[INFO ][2015-11-04 12:24:17,963][com.java.TestType] [ 3750] - value = 2
+[INFO ][2015-11-04 12:24:18,043][com.java.TestType] [ 3868] -  In COB //td[@colspan='2']/select : 2
+[INFO ][2015-11-04 12:24:18,723][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:24:18,723][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:24:18,723][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:24:18,723][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:24:18,723][com.java.SeleniumDriver] [  800] - Test step:32
+[INFO ][2015-11-04 12:24:18,723][com.java.SeleniumDriver] [  812] - Datavalue is----------3
+[INFO ][2015-11-04 12:24:18,723][com.java.SeleniumDriver] [  836] - DataField : XPH//span[contains(text(),'Save')]
+[INFO ][2015-11-04 12:24:18,724][com.java.SeleniumDriver] [  838] - DataValue : 3
+[INFO ][2015-11-04 12:24:18,724][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:24:18,724][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:24:18,724][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:24:18,724][com.java.SeleniumDriver] [  852] - Action Type : WAITFORELEMENT
+[INFO ][2015-11-04 12:24:18,786][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:24:18,786][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:24:18,786][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:24:18,786][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:24:18,786][com.java.SeleniumDriver] [  800] - Test step:33
+[INFO ][2015-11-04 12:24:18,786][com.java.SeleniumDriver] [  812] - Datavalue is----------null
+[DEBUG][2015-11-04 12:24:18,786][com.java.SeleniumDriver] [  830] - Exception: null
+[INFO ][2015-11-04 12:24:18,786][com.java.SeleniumDriver] [  836] - DataField : XPH//span[contains(text(),'Save')]
+[INFO ][2015-11-04 12:24:18,786][com.java.SeleniumDriver] [  838] - DataValue : 
+[INFO ][2015-11-04 12:24:18,787][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:24:18,787][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:24:18,787][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:24:18,787][com.java.SeleniumDriver] [  852] - Action Type : CLICK
+[INFO ][2015-11-04 12:24:18,787][com.java.TestType] [ 4063] - Field ::XPH//span[contains(text(),'Save')]
+[INFO ][2015-11-04 12:24:19,788][com.java.TestType] [ 4122] - BEFORE CLICK
+[INFO ][2015-11-04 12:24:20,585][com.java.TestType] [ 4130] - Unable to click the object Save Button
+[INFO ][2015-11-04 12:24:20,585][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:24:20,585][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:24:20,585][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:24:20,585][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:24:20,585][com.java.SeleniumDriver] [  800] - Test step:34
+[INFO ][2015-11-04 12:24:20,585][com.java.SeleniumDriver] [  812] - Datavalue is----------3
+[INFO ][2015-11-04 12:24:20,586][com.java.SeleniumDriver] [  836] - DataField : XPH//span[contains(text(), 'Finished')]
+[INFO ][2015-11-04 12:24:20,586][com.java.SeleniumDriver] [  838] - DataValue : 3
+[INFO ][2015-11-04 12:24:20,586][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:24:20,586][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:24:20,586][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:24:20,586][com.java.SeleniumDriver] [  852] - Action Type : WAITFORELEMENT
+[INFO ][2015-11-04 12:24:21,630][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:24:21,630][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:24:21,630][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:24:21,630][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:24:21,630][com.java.SeleniumDriver] [  800] - Test step:35
+[INFO ][2015-11-04 12:24:21,630][com.java.SeleniumDriver] [  812] - Datavalue is----------null
+[DEBUG][2015-11-04 12:24:21,631][com.java.SeleniumDriver] [  830] - Exception: null
+[INFO ][2015-11-04 12:24:21,631][com.java.SeleniumDriver] [  836] - DataField : XPH//select[@action='goToPackage']
+[INFO ][2015-11-04 12:24:21,631][com.java.SeleniumDriver] [  838] - DataValue : 
+[INFO ][2015-11-04 12:24:21,631][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:24:21,631][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:24:21,631][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:24:21,631][com.java.SeleniumDriver] [  852] - Action Type : CLICK
+[INFO ][2015-11-04 12:24:21,631][com.java.TestType] [ 4063] - Field ::XPH//select[@action='goToPackage']
+[INFO ][2015-11-04 12:24:22,631][com.java.TestType] [ 4122] - BEFORE CLICK
+[INFO ][2015-11-04 12:24:23,444][com.java.TestType] [ 4130] - Unable to click the object Current Package Dropdown
+[INFO ][2015-11-04 12:24:23,444][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:24:23,444][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:24:23,444][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:24:23,444][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:24:23,444][com.java.SeleniumDriver] [  800] - Test step:36
+[INFO ][2015-11-04 12:24:23,444][com.java.SeleniumDriver] [  812] - Datavalue is----------3
+[INFO ][2015-11-04 12:24:23,444][com.java.SeleniumDriver] [  836] - DataField : XPH//select[@action='goToPackage']/option
+[INFO ][2015-11-04 12:24:23,444][com.java.SeleniumDriver] [  838] - DataValue : 3
+[INFO ][2015-11-04 12:24:23,444][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:24:23,444][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:24:23,445][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:24:23,445][com.java.SeleniumDriver] [  852] - Action Type : WAITFORELEMENT
+[INFO ][2015-11-04 12:24:23,468][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:24:23,468][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:24:23,469][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:24:23,469][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:24:23,470][com.java.SeleniumDriver] [  800] - Test step:37
+[INFO ][2015-11-04 12:24:23,470][com.java.SeleniumDriver] [  812] - Datavalue is----------HMVPackageName
+[INFO ][2015-11-04 12:24:23,470][com.java.SeleniumDriver] [  836] - DataField : SLB//select[@action='goToPackage']
+[INFO ][2015-11-04 12:24:23,470][com.java.SeleniumDriver] [  838] - DataValue : HMVPackageName
+[INFO ][2015-11-04 12:24:23,470][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:24:23,470][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:24:23,470][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:24:23,470][com.java.SeleniumDriver] [  852] - Action Type : Select
+[INFO ][2015-11-04 12:24:23,470][com.java.TestType] [ 3750] - value = VL_Test#46283
+[INFO ][2015-11-04 12:24:23,694][com.java.SeleniumDriver] [  861] -  RESULT true
+[INFO ][2015-11-04 12:24:23,694][com.java.SeleniumDriver] [ 1066] - ?   P A S S   ?
+[INFO ][2015-11-04 12:24:23,694][com.java.SeleniumDriver] [  788] - ------------------------------------------
+[INFO ][2015-11-04 12:24:23,694][com.java.SeleniumDriver] [  789] - Test case being Executed: 2
+[INFO ][2015-11-04 12:24:23,694][com.java.SeleniumDriver] [  800] - Test step:38
+[INFO ][2015-11-04 12:24:23,694][com.java.SeleniumDriver] [  812] - Datavalue is----------3
+[INFO ][2015-11-04 12:24:23,694][com.java.SeleniumDriver] [  836] - DataField : XPH//input[@class='ember-view ember-text-field form-control']
+[INFO ][2015-11-04 12:24:23,694][com.java.SeleniumDriver] [  838] - DataValue : 3
+[INFO ][2015-11-04 12:24:23,694][com.java.SeleniumDriver] [  844] - <In Set values of the page>
+[INFO ][2015-11-04 12:24:23,694][com.java.SeleniumDriver] [  847] - {Data Fields & Data Values Exist}
+[INFO ][2015-11-04 12:24:23,694][com.java.SeleniumDriver] [  849] - --------------------------setting values-----------------------------
+[INFO ][2015-11-04 12:24:23,694][com.java.SeleniumDriver] [  852] - Action Type : WAITFORELEMENT
+[DEBUG][2015-11-04 12:27:26,903][com.java.TestType] [ 4616] - //input[@class='ember-view ember-text-field form-control']   :: Element not Found
+[INFO ][2015-11-04 12:27:26,903][com.java.SeleniumDriver] [  861] -  RESULT false
+[INFO ][2015-11-04 12:27:26,903][com.java.SeleniumDriver] [  908] - ?   F A I L   ?
+[INFO ][2015-11-04 12:27:26,903][com.java.SeleniumDriver] [  916] - Browser Type : IE11
+[INFO ][2015-11-04 12:27:26,903][com.java.SeleniumDriver] [  917] - Adding Failed case2
+[INFO ][2015-11-04 12:27:27,688][com.java.SeleniumDriver] [ 1030] - failedCases = 2
+[ERROR][2015-11-04 12:27:27,688][com.java.SeleniumDriver] [ 1516] - Platform Errors : Our apologies...::We have encountered an issue with your request.::Our apologies?:We encountered an issue with your request.
+[INFO ][2015-11-04 12:27:27,689][com.java.SeleniumDriver] [ 1520] - Length =3
+[ERROR][2015-11-04 12:27:27,689][com.java.SeleniumDriver] [ 1523] - Error 0 = Our apologies...
+[ERROR][2015-11-04 12:27:27,784][com.java.SeleniumDriver] [ 1523] - Error 1 = We have encountered an issue with your request.
+[ERROR][2015-11-04 12:27:27,799][com.java.SeleniumDriver] [ 1523] - Error 2 = Our apologies?:We encountered an issue with your request.
+[DEBUG][2015-11-04 12:27:27,828][com.java.SeleniumDriver] [ 1168] - Case found
+[DEBUG][2015-11-04 12:27:27,828][com.java.SeleniumDriver] [ 1173] - Incrementing ReportCounters[0]:2
+[INFO ][2015-11-04 12:27:27,828][com.java.SeleniumDriver] [ 1192] - The results are-------------------[2, 38, Report Package: Run Report Package to Email, Fail, 
+Test case failed at Step No. :: 38   Error Message ::  //input[@class='ember-view ember-text-field form-control']   :: Element not Found. Screen Shot : D:\BankersDashboard\TestReports\110415\2_110415_122726_IE11.png, Wed Nov 04 12:27:27 IST 2015]
+[INFO ][2015-11-04 12:27:27,828][com.java.SeleniumDriver] [ 1196] - End time is-------5 min 11 sec
+[INFO ][2015-11-04 12:27:27,828][com.java.SeleniumDriver] [ 1197] - The results are-------------------[2, 38, Report Package: Run Report Package to Email, Fail, 
+Test case failed at Step No. :: 38   Error Message ::  //input[@class='ember-view ember-text-field form-control']   :: Element not Found. Screen Shot : D:\BankersDashboard\TestReports\110415\2_110415_122726_IE11.png, Wed Nov 04 12:27:27 IST 2015]
+[DEBUG][2015-11-04 12:27:27,828][com.java.ImportnExport.ExportTestResultsExcel] [  222] - testResultPath = D:\BankersDashboard/TestReports/Test Results_BankersDashBoard_110415_122218_IE11_Bank of North Carolina.xls
+[DEBUG][2015-11-04 12:27:27,828][com.java.ImportnExport.ExportTestResultsExcel] [  223] - browser is------------IE11
+[DEBUG][2015-11-04 12:27:27,830][com.java.ImportnExport.ExportTestResultsExcel] [  270] - result.size() = 6
+[DEBUG][2015-11-04 12:27:27,831][com.java.ImportnExport.ExportTestResultsExcel] [  274] - No of rows in sheet=2
+[DEBUG][2015-11-04 12:27:27,831][com.java.ImportnExport.ExportTestResultsExcel] [  301] - ..in export..2
+[DEBUG][2015-11-04 12:27:27,831][com.java.ImportnExport.ExportTestResultsExcel] [  301] - ..in export..Report Package: Run Report Package to Email
+[DEBUG][2015-11-04 12:27:27,831][com.java.ImportnExport.ExportTestResultsExcel] [  301] - ..in export..Fail
+[DEBUG][2015-11-04 12:27:27,831][com.java.ImportnExport.ExportTestResultsExcel] [  301] - ..in export..
+Test case failed at Step No. :: 38   Error Message ::  //input[@class='ember-view ember-text-field form-control']   :: Element not Found. Screen Shot : D:\BankersDashboard\TestReports\110415\2_110415_122726_IE11.png
+[DEBUG][2015-11-04 12:27:27,831][com.java.ImportnExport.ExportTestResultsExcel] [  301] - ..in export..Wed Nov 04 12:27:27 IST 2015
+[INFO ][2015-11-04 12:27:27,832][com.java.SeleniumDriver] [ 1255] - out loop:1 size:2 TestCases:[1, 2] testcases:[1, 2]
+[INFO ][2015-11-04 12:27:29,833][com.java.SeleniumDriver] [ 1297] - Total Number of Cases:2
+[INFO ][2015-11-04 12:27:29,833][com.java.TemplateGenerator] [  302] - Executed:2
+[INFO ][2015-11-04 12:27:29,833][com.java.TemplateGenerator] [  303] - Passed:1
+[INFO ][2015-11-04 12:27:29,833][com.java.TemplateGenerator] [  304] - Failed:1
+[INFO ][2015-11-04 12:27:29,833][com.java.TemplateGenerator] [  305] - Skipeed:0
+[INFO ][2015-11-04 12:27:29,833][com.java.TemplateGenerator] [  306] - Application URL:https://clients-xuat.bankersdashboard.com
+[INFO ][2015-11-04 12:27:29,833][com.java.TemplateGenerator] [  307] - Start Time:110415_122218
+[INFO ][2015-11-04 12:27:29,833][com.java.TemplateGenerator] [  308] -  Creating HTML Report 
+[ERROR][2015-11-04 12:27:29,834][com.java.TemplateGenerator] [  409] - Unparseable date: "Wed Nov 04 12:22:18 IST 2015"
+[INFO ][2015-11-04 12:27:29,834][com.java.TemplateGenerator] [  654] -  Exporting case :: 1
+[INFO ][2015-11-04 12:27:29,834][com.java.TemplateGenerator] [  654] -  Exporting case :: 2
+[INFO ][2015-11-04 12:27:29,840][com.java.SeleniumDriver] [ 1346] - End Time:110415_122729
+[INFO ][2015-11-04 12:27:29,840][com.java.SeleniumDriver] [ 1349] - Data in Test Execution Details:{1=PASS, 2=FAILTest case failed at Step No. :: 38   Error Message ::  //input[@class='ember-view ember-text-field form-control']   :: Element not Found}
+[INFO ][2015-11-04 12:27:29,840][com.java.SeleniumDriver] [ 1350] - Data in Failed Execution Deatils:{}
+[INFO ][2015-11-04 12:27:29,840][com.java.SeleniumDriver] [ 1352] - ReportCounter:Total:2 :: PASS: 1 ::FAIL: 1
+[INFO ][2015-11-04 12:27:29,840][com.java.SeleniumDriver] [ 1353] - FailedReportCounter:Total:0 :: PASS: 0 ::FAIL: 0
+[INFO ][2015-11-04 12:27:29,846][com.java.EmailTestReport] [   63] - Sending report mail details:
+[INFO ][2015-11-04 12:27:29,846][com.java.EmailTestReport] [   80] - Excel Report Path:D:\BankersDashboard/TestReports/Test Results_BankersDashBoard_110415_122218_IE11_Bank of North Carolina.xls
+[INFO ][2015-11-04 12:27:29,846][com.java.EmailTestReport] [   81] - HTML Report Path:D:\BankersDashboard//TestReports//Test Results_BankersDashBoard_110415_122218_IE11_Bank of North Carolina.html
+[INFO ][2015-11-04 12:27:29,846][com.java.EmailTestReport] [   82] - smtpHostName:mail01.valuelabs.com
+[INFO ][2015-11-04 12:27:29,846][com.java.EmailTestReport] [   83] - Recipient:venkateswararao.gubbala@valuelabs.com
+[INFO ][2015-11-04 12:27:29,846][com.java.EmailTestReport] [   84] - From:venkateswararao.gubbala@valuelabs.com
+[INFO ][2015-11-04 12:27:29,846][com.java.EmailTestReport] [   85] - Subject:Deluxe Corp Bankers Dashboard Automation Test Report - Bank of North Carolina - IE11
+[INFO ][2015-11-04 12:27:29,863][com.java.EmailTestReport] [  143] -  Added venkateswararao.gubbala@valuelabs.com
+[INFO ][2015-11-04 12:27:33,245][com.java.SeleniumDriver] [  719] - quitting the browser 
+[INFO ][2015-11-04 12:27:34,549][com.java.SeleniumDriver] [  263] - Execution Completed Stopping the thread

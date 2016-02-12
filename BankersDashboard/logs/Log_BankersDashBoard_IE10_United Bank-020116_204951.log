@@ -1,0 +1,38 @@
+[INFO ][2016-02-01 20:49:51,687][com.java.SeleniumDriver] [  213] - Execute Failed Casesfalse
+[INFO ][2016-02-01 20:49:51,687][com.java.SeleniumDriver] [  214] - Browser: IE10
+[INFO ][2016-02-01 20:49:51,697][com.java.SeleniumDriver] [  215] - [1, 6]
+[INFO ][2016-02-01 20:49:51,697][com.java.SeleniumDriver] [  216] - Total TestCases:2
+[INFO ][2016-02-01 20:49:51,697][com.java.SeleniumDriver] [  217] -  Reading Properties from Property File 
+[DEBUG][2016-02-01 20:49:51,697][com.java.SeleniumDriver] [  238] - url : https://clients-xuat.bankersdashboard.com
+[INFO ][2016-02-01 20:49:51,697][com.java.ImportnExport.ExportTestResultsExcel] [  116] - Time Stamp Mon Feb 01 08:49:51 IST 2016
+[INFO ][2016-02-01 20:49:51,697][com.java.ImportnExport.ExportTestResultsExcel] [  175] - OUT FILE : D:\BankersDashboard/TestReports/Test Results_BankersDashBoard_020116_204951_IE10_United Bank.xls
+[INFO ][2016-02-01 20:49:51,728][com.java.ImportnExport.ExportTestResultsExcel] [  180] - Test Result file is created
+[DEBUG][2016-02-01 20:49:51,828][com.java.SeleniumDriver] [  426] - Hub ip address is-------172.17.68.34
+[INFO ][2016-02-01 20:49:51,828][com.java.SeleniumDriver] [  452] - Grid URL:http://172.17.68.34:4444/wd/hub
+[INFO ][2016-02-01 20:49:51,828][com.java.SeleniumDriver] [  453] - Capability:Capabilities [{platform=ANY, ensureCleanSession=true, ignoreProtectedModeSettings=true, acceptSslCerts=true, ignoreZoomSetting=true, browserName=internet explorer, browserstack.ie.noFlash=true, version=null}]
+[ERROR][2016-02-01 20:49:53,138][com.java.SeleniumDriver] [  498] - Unable invoke browser in grid:Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'FVTIII438F1D', ip: '172.17.68.34', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_55'
+Driver info: driver.version: SeleniumDriver
+[INFO ][2016-02-01 20:49:53,138][com.java.SeleniumDriver] [  500] - Executing on local machine
+[INFO ][2016-02-01 20:50:59,693][com.java.SeleniumDriver] [  248] - IE10is opened
+[ERROR][2016-02-01 20:51:52,954][com.java.SeleniumDriver] [  271] - Browser crashed. Opening new browser with same capabilities
+[ERROR][2016-02-01 20:51:52,954][com.java.SeleniumDriver] [  272] - Error:
+org.openqa.selenium.NoSuchWindowException: Error retrieving window with handle current (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'FVTIII438F1D', ip: '172.17.68.34', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_55'
+Session ID: ad07ffde-c2c5-4b20-9df4-a2bd82a7e040
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=10, ie.usePerProcessProxy=false, ignoreProtectedModeSettings=true, cssSelectorsEnabled=true, requireWindowFocus=false, initialBrowserUrl=http://localhost:37170/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:907)
+	at com.java.SeleniumDriver.setup(SeleniumDriver.java:254)
+	at com.java.ExecuteThread.run(CreateClient.java:688)
+	at java.lang.Thread.run(Thread.java:745)

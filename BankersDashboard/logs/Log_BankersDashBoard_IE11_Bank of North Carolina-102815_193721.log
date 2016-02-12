@@ -1,0 +1,46 @@
+[INFO ][2015-10-28 19:37:21,135][com.java.SeleniumDriver] [  213] - Execute Failed Casesfalse
+[INFO ][2015-10-28 19:37:21,135][com.java.SeleniumDriver] [  214] - Browser: IE11
+[INFO ][2015-10-28 19:37:21,135][com.java.SeleniumDriver] [  215] - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+[INFO ][2015-10-28 19:37:21,135][com.java.SeleniumDriver] [  216] - Total TestCases:15
+[INFO ][2015-10-28 19:37:21,135][com.java.SeleniumDriver] [  217] -  Reading Properties from Property File 
+[DEBUG][2015-10-28 19:37:21,135][com.java.SeleniumDriver] [  238] - url : https://clients-xuat.bankersdashboard.com
+[INFO ][2015-10-28 19:37:21,135][com.java.ImportnExport.ExportTestResultsExcel] [  116] - Time Stamp Wed Oct 28 07:37:21 IST 2015
+[INFO ][2015-10-28 19:37:21,135][com.java.ImportnExport.ExportTestResultsExcel] [  175] - OUT FILE : D:\BankersDashboard/TestReports/Test Results_BankersDashBoard_102815_193721_IE11_Bank of North Carolina.xls
+[INFO ][2015-10-28 19:37:21,157][com.java.ImportnExport.ExportTestResultsExcel] [  180] - Test Result file is created
+[DEBUG][2015-10-28 19:37:21,257][com.java.SeleniumDriver] [  425] - Hub ip address is-------172.17.68.34
+[INFO ][2015-10-28 19:37:21,257][com.java.SeleniumDriver] [  451] - Grid URL:http://172.17.68.34:4444/wd/hub
+[INFO ][2015-10-28 19:37:21,257][com.java.SeleniumDriver] [  452] - Capability:Capabilities [{platform=ANY, ensureCleanSession=true, ignoreProtectedModeSettings=true, acceptSslCerts=true, ignoreZoomSetting=true, browserName=internet explorer, browserstack.ie.noFlash=true, version=Node1}]
+[ERROR][2015-10-28 19:37:22,537][com.java.SeleniumDriver] [  496] - Unable invoke browser in grid:Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'FVTIII438F1D', ip: '172.17.68.34', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_55'
+Driver info: driver.version: SeleniumDriver
+[INFO ][2015-10-28 19:37:22,537][com.java.SeleniumDriver] [  498] - Executing on local machine
+[INFO ][2015-10-28 19:37:30,139][com.java.SeleniumDriver] [  248] - IE11is opened
+[ERROR][2015-10-28 19:37:30,159][com.java.SeleniumDriver] [  270] - Browser crashed. Opening new browser with same capabilities
+[ERROR][2015-10-28 19:37:30,159][com.java.SeleniumDriver] [  271] - Error:
+org.openqa.selenium.WebDriverException: Failed to navigate to https://clients-xuat.bankersdashboard.com. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'FVTIII438F1D', ip: '172.17.68.34', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_55'
+Session ID: 7b1f7348-e5f2-4a9a-8ee9-7a287988e882
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=11, ie.usePerProcessProxy=false, ignoreProtectedModeSettings=true, cssSelectorsEnabled=true, requireWindowFocus=false, initialBrowserUrl=http://localhost:40932/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:311)
+	at com.java.SeleniumDriver.setup(SeleniumDriver.java:253)
+	at com.java.ExecuteThread.run(CreateClient.java:689)
+	at java.lang.Thread.run(Thread.java:745)
+[DEBUG][2015-10-28 19:37:31,390][com.java.SeleniumDriver] [  425] - Hub ip address is-------172.17.68.34
+[INFO ][2015-10-28 19:37:31,390][com.java.SeleniumDriver] [  451] - Grid URL:http://172.17.68.34:4444/wd/hub
+[INFO ][2015-10-28 19:37:31,390][com.java.SeleniumDriver] [  452] - Capability:Capabilities [{platform=ANY, ensureCleanSession=true, ignoreProtectedModeSettings=true, acceptSslCerts=true, ignoreZoomSetting=true, browserName=internet explorer, browserstack.ie.noFlash=true, version=Node1}]
+[ERROR][2015-10-28 19:37:32,401][com.java.SeleniumDriver] [  496] - Unable invoke browser in grid:Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'FVTIII438F1D', ip: '172.17.68.34', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_55'
+Driver info: driver.version: SeleniumDriver
+[INFO ][2015-10-28 19:37:32,401][com.java.SeleniumDriver] [  498] - Executing on local machine

@@ -1,0 +1,29 @@
+[INFO ][2015-10-28 17:16:13,060] [com.java.CreateClient] [main] [  138] - Execution started
+[DEBUG][2015-10-28 17:16:13,060] [com.java.CreateClient] [main] [  148] - Execute Failed Cases: false
+[INFO ][2015-10-28 17:16:13,150] [com.java.CreateClient] [main] [  201] - Test Cases Being executed:[2]
+[INFO ][2015-10-28 17:16:13,150] [com.java.CreateClient] [main] [  205] - Browsers:IE11
+[INFO ][2015-10-28 17:16:13,150] [com.java.CreateClient] [main] [  206] - Clients:Mechanics & Farmers Bank
+[INFO ][2015-10-28 17:16:13,150] [com.java.CreateClient] [main] [  210] - Execution type:Sequential:1
+[INFO ][2015-10-28 17:16:13,150] [com.java.CreateClient] [main] [  232] - Client to be executed: Mechanics & Farmers Bank
+[INFO ][2015-10-28 17:16:13,150] [com.java.CreateClient] [main] [  249] - Application URL: https://clients.xuat.bankersdashboard.com
+[INFO ][2015-10-28 17:16:13,160] [com.java.CreateClient] [main] [  290] - Browser Name:IE11
+Login user:valuelabs.ie11.30118
+Login Password:Password1*
+[DEBUG][2015-10-28 17:16:15,166] [com.java.CreateClient] [invokeClientsinParallel] [  460] - Thread name before setting name: Thread[Thread-3,5,main]
+[DEBUG][2015-10-28 17:16:15,166] [com.java.CreateClient] [invokeClientsinParallel] [  464] - Thread name: Thread[Thread_Mechanics & Farmers Bank_null,5,main]
+[DEBUG][2015-10-28 17:16:15,166] [com.java.CreateClient] [invokeClientsinParallel] [  466] - Thread started: Thread[Thread_Mechanics & Farmers Bank_null,5,main]
+[DEBUG][2015-10-28 17:16:26,255] [com.java.CreateClient] [updateExecutionStatus] [  594] - updating the execution completion status for: IE11 : MECHANICS & FARMERS BANK
+[INFO ][2015-10-28 17:16:26,255] [com.java.CreateClient] [generateBrowserLevelReportOnCompletion] [  619] - Execution Completed for Browser:IE11 for All Clients i.e:[Mechanics & Farmers Bank]
+[INFO ][2015-10-28 17:16:26,255] [com.java.TemplateGenerator] [browserLevelReport_Consolidated] [  802] - Generating browser level report for:IE11
+[DEBUG][2015-10-28 17:16:26,255] [com.java.TemplateGenerator] [writeToHTML] [  895] - Generating consolidated HTML file for all clients
+[INFO ][2015-10-28 17:16:26,255] [com.java.TemplateGenerator] [writeToHTML] [  897] - Browser names:[IE11]
+[INFO ][2015-10-28 17:16:26,255] [com.java.TemplateGenerator] [writeToHTML] [  898] - Client names:[Mechanics & Farmers Bank]
+[INFO ][2015-10-28 17:16:26,255] [com.java.TemplateGenerator] [writeToHTML] [ 1011] - ---------------------------
+[INFO ][2015-10-28 17:16:26,255] [com.java.TemplateGenerator] [writeToHTML] [ 1012] - clientName: Mechanics & Farmers Bank
+[INFO ][2015-10-28 17:16:26,255] [com.java.TemplateGenerator] [writeToHTML] [ 1028] - Browser execution details missing:[]
+[INFO ][2015-10-28 17:16:26,255] [com.java.TemplateGenerator] [writeToHTML] [ 1042] - Browser execution details exist for client: Mechanics & Farmers Bank are: [IE11]
+[DEBUG][2015-10-28 17:16:26,255] [com.java.EmailTestReport] [postMail_Consolidated] [  460] - Sending Consildated report mail for clients
+[INFO ][2015-10-28 17:16:26,255] [com.java.EmailTestReport] [postMail_Consolidated] [  495] - ---------------------------
+[INFO ][2015-10-28 17:16:26,255] [com.java.EmailTestReport] [postMail_Consolidated] [  496] - clientName: Mechanics & Farmers Bank
+[INFO ][2015-10-28 17:16:26,255] [com.java.EmailTestReport] [postMail_Consolidated] [  515] - Browser execution details missing:[]
+[INFO ][2015-10-28 17:16:26,265] [com.java.EmailTestReport] [postMail_Consolidated] [  535] - Browser execution details exist for client: Mechanics & Farmers Bank are: [IE11]

@@ -1,0 +1,29 @@
+[INFO ][2015-11-20 13:42:58,223] [com.java.CreateClient] [main] [  138] - Execution started
+[DEBUG][2015-11-20 13:42:58,223] [com.java.CreateClient] [main] [  148] - Execute Failed Cases: false
+[INFO ][2015-11-20 13:42:58,313] [com.java.CreateClient] [main] [  201] - Test Cases Being executed:[22]
+[INFO ][2015-11-20 13:42:58,313] [com.java.CreateClient] [main] [  205] - Browsers:IE10
+[INFO ][2015-11-20 13:42:58,313] [com.java.CreateClient] [main] [  206] - Clients:Any Bank USA
+[INFO ][2015-11-20 13:42:58,313] [com.java.CreateClient] [main] [  210] - Execution type:Sequential:1
+[INFO ][2015-11-20 13:42:58,313] [com.java.CreateClient] [main] [  232] - Client to be executed: Any Bank USA
+[INFO ][2015-11-20 13:42:58,323] [com.java.CreateClient] [main] [  249] - Application URL: https://clients-xuat.bankersdashboard.com
+[INFO ][2015-11-20 13:42:58,323] [com.java.CreateClient] [main] [  290] - Browser Name:IE10
+Login user:naresh.nayini.00000
+Login Password:Password1*
+[DEBUG][2015-11-20 13:43:00,323] [com.java.CreateClient] [invokeClientsinParallel] [  459] - Thread name before setting name: Thread[Thread-3,5,main]
+[DEBUG][2015-11-20 13:43:00,323] [com.java.CreateClient] [invokeClientsinParallel] [  463] - Thread name: Thread[Thread_Any Bank USA_null,5,main]
+[DEBUG][2015-11-20 13:43:00,323] [com.java.CreateClient] [invokeClientsinParallel] [  465] - Thread started: Thread[Thread_Any Bank USA_null,5,main]
+[DEBUG][2015-11-20 13:46:07,271] [com.java.CreateClient] [updateExecutionStatus] [  593] - updating the execution completion status for: IE10 : ANY BANK USA
+[INFO ][2015-11-20 13:46:07,271] [com.java.CreateClient] [generateBrowserLevelReportOnCompletion] [  618] - Execution Completed for Browser:IE10 for All Clients i.e:[Any Bank USA]
+[INFO ][2015-11-20 13:46:07,271] [com.java.TemplateGenerator] [browserLevelReport_Consolidated] [  802] - Generating browser level report for:IE10
+[DEBUG][2015-11-20 13:46:07,271] [com.java.TemplateGenerator] [writeToHTML] [  895] - Generating consolidated HTML file for all clients
+[INFO ][2015-11-20 13:46:07,271] [com.java.TemplateGenerator] [writeToHTML] [  897] - Browser names:[IE10]
+[INFO ][2015-11-20 13:46:07,271] [com.java.TemplateGenerator] [writeToHTML] [  898] - Client names:[Any Bank USA]
+[INFO ][2015-11-20 13:46:07,271] [com.java.TemplateGenerator] [writeToHTML] [ 1011] - ---------------------------
+[INFO ][2015-11-20 13:46:07,271] [com.java.TemplateGenerator] [writeToHTML] [ 1012] - clientName: Any Bank USA
+[INFO ][2015-11-20 13:46:07,271] [com.java.TemplateGenerator] [writeToHTML] [ 1028] - Browser execution details missing:[]
+[INFO ][2015-11-20 13:46:07,271] [com.java.TemplateGenerator] [writeToHTML] [ 1042] - Browser execution details exist for client: Any Bank USA are: [IE10]
+[DEBUG][2015-11-20 13:46:07,271] [com.java.EmailTestReport] [postMail_Consolidated] [  460] - Sending Consildated report mail for clients
+[INFO ][2015-11-20 13:46:07,271] [com.java.EmailTestReport] [postMail_Consolidated] [  495] - ---------------------------
+[INFO ][2015-11-20 13:46:07,271] [com.java.EmailTestReport] [postMail_Consolidated] [  496] - clientName: Any Bank USA
+[INFO ][2015-11-20 13:46:07,271] [com.java.EmailTestReport] [postMail_Consolidated] [  515] - Browser execution details missing:[]
+[INFO ][2015-11-20 13:46:07,271] [com.java.EmailTestReport] [postMail_Consolidated] [  535] - Browser execution details exist for client: Any Bank USA are: [IE10]
