@@ -1,2 +1,0 @@
-# DeluxeFW
-Deluxe Complete FW
